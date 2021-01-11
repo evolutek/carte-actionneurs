@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Carte Actionneurs"
+Date "2020-12-09"
+Rev "V1.0"
+Comp "Evolutek<<"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -189,26 +189,6 @@ F 2 "Button_Switch_THT:SW_DIP_SPSTx03_Slide_6.7x9.18mm_W7.62mm_P2.54mm_LowProfil
 F 3 "~" H 8000 5050 50  0001 C CNN
 	1    8000 5050
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 602DF474
-P 8750 4350
-AR Path="/5F228A8A/602DF474" Ref="#PWR?"  Part="1" 
-AR Path="/5F2F5084/602DF474" Ref="#PWR?"  Part="1" 
-AR Path="/5F2F5084/5FB5CBEC/602DF474" Ref="#PWR?"  Part="1" 
-AR Path="/5FC9C69B/5FB5CBEC/602DF474" Ref="#PWR?"  Part="1" 
-AR Path="/5F7B06AE/5FB5CBEC/602DF474" Ref="#PWR?"  Part="1" 
-AR Path="/5F4DF949/5FB5CBEC/602DF474" Ref="#PWR?"  Part="1" 
-AR Path="/5FB5CBEC/602DF474" Ref="#PWR?"  Part="1" 
-AR Path="/602DF474" Ref="#PWR?"  Part="1" 
-AR Path="/6021D0EA/602DF474" Ref="#PWR062"  Part="1" 
-F 0 "#PWR062" H 8750 4100 50  0001 C CNN
-F 1 "GND" H 8755 4177 50  0000 C CNN
-F 2 "" H 8750 4350 50  0001 C CNN
-F 3 "" H 8750 4350 50  0001 C CNN
-	1    8750 4350
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
@@ -1545,4 +1525,21 @@ Text GLabel 6800 1550 3    50   Input ~ 0
 12V_BAU
 Text GLabel 7500 1550 3    50   Input ~ 0
 12V_BAU
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FFDBE9D
+P 8750 4350
+AR Path="/5FC9C69B/5FD48098/5FFDBE9D" Ref="#PWR?"  Part="1" 
+AR Path="/5F7B06AE/5FD48098/5FFDBE9D" Ref="#PWR?"  Part="1" 
+AR Path="/5F4DF949/5FD48098/5FFDBE9D" Ref="#PWR?"  Part="1" 
+AR Path="/5FD48098/5FFDBE9D" Ref="#PWR?"  Part="1" 
+AR Path="/5FFDBE9D" Ref="#PWR?"  Part="1" 
+AR Path="/6021D0EA/5FFDBE9D" Ref="#PWR025"  Part="1" 
+F 0 "#PWR025" H 8750 4200 50  0001 C CNN
+F 1 "+3.3V" V 8765 4478 50  0000 L CNN
+F 2 "" H 8750 4350 50  0001 C CNN
+F 3 "" H 8750 4350 50  0001 C CNN
+	1    8750 4350
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
-Title "Pumps"
+Title "Carte Actionneurs"
 Date "2020-12-09"
 Rev "V1.0"
-Comp "Evolutek<< & Coffee Machine"
+Comp "Evolutek<<"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -80,8 +80,8 @@ AR Path="/5FD48098/601F0A81" Ref="pump?"  Part="1"
 AR Path="/601F0A81" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/601F0A81" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/601EAF49/601F0A81" Ref="pump?"  Part="1" 
-AR Path="/6021D0EA/602C425D/601F0A81" Ref="pump1"  Part="1" 
-F 0 "pump1" H 4222 1874 50  0000 R CNN
+AR Path="/6021D0EA/602C425D/601F0A81" Ref="Pump1"  Part="1" 
+F 0 "Pump1" H 4222 1874 50  0000 R CNN
 F 1 "Conn_01x04_Male" H 4222 1783 50  0000 R CNN
 F 2 "ConnectorsEvo:B04B-PASK" H 4250 1900 50  0001 C CNN
 F 3 "~" H 4250 1900 50  0001 C CNN
@@ -159,8 +159,8 @@ AR Path="/5FD48098/602CDE04" Ref="pump?"  Part="1"
 AR Path="/602CDE04" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/602CDE04" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/601EAF49/602CDE04" Ref="pump?"  Part="1" 
-AR Path="/6021D0EA/602C425D/602CDE04" Ref="pump2"  Part="1" 
-F 0 "pump2" H 4222 2924 50  0000 R CNN
+AR Path="/6021D0EA/602C425D/602CDE04" Ref="Pump2"  Part="1" 
+F 0 "Pump2" H 4222 2924 50  0000 R CNN
 F 1 "Conn_01x04_Male" H 4222 2833 50  0000 R CNN
 F 2 "ConnectorsEvo:B04B-PASK" H 4250 2950 50  0001 C CNN
 F 3 "~" H 4250 2950 50  0001 C CNN
@@ -238,8 +238,8 @@ AR Path="/5FD48098/602CF9B9" Ref="pump?"  Part="1"
 AR Path="/602CF9B9" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/602CF9B9" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/601EAF49/602CF9B9" Ref="pump?"  Part="1" 
-AR Path="/6021D0EA/602C425D/602CF9B9" Ref="pump3"  Part="1" 
-F 0 "pump3" H 4222 3974 50  0000 R CNN
+AR Path="/6021D0EA/602C425D/602CF9B9" Ref="Pump3"  Part="1" 
+F 0 "Pump3" H 4222 3974 50  0000 R CNN
 F 1 "Conn_01x04_Male" H 4222 3883 50  0000 R CNN
 F 2 "ConnectorsEvo:B04B-PASK" H 4250 4000 50  0001 C CNN
 F 3 "~" H 4250 4000 50  0001 C CNN
@@ -317,8 +317,8 @@ AR Path="/5FD48098/602D1320" Ref="pump?"  Part="1"
 AR Path="/602D1320" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/602D1320" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/601EAF49/602D1320" Ref="pump?"  Part="1" 
-AR Path="/6021D0EA/602C425D/602D1320" Ref="pump4"  Part="1" 
-F 0 "pump4" H 4222 5024 50  0000 R CNN
+AR Path="/6021D0EA/602C425D/602D1320" Ref="Pump4"  Part="1" 
+F 0 "Pump4" H 4222 5024 50  0000 R CNN
 F 1 "Conn_01x04_Male" H 4222 4933 50  0000 R CNN
 F 2 "ConnectorsEvo:B04B-PASK" H 4250 5050 50  0001 C CNN
 F 3 "~" H 4250 5050 50  0001 C CNN
@@ -396,8 +396,8 @@ AR Path="/5FD48098/602E0CA6" Ref="pump?"  Part="1"
 AR Path="/602E0CA6" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/602E0CA6" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/601EAF49/602E0CA6" Ref="pump?"  Part="1" 
-AR Path="/6021D0EA/602C425D/602E0CA6" Ref="pump5"  Part="1" 
-F 0 "pump5" H 5972 1874 50  0000 R CNN
+AR Path="/6021D0EA/602C425D/602E0CA6" Ref="Pump5"  Part="1" 
+F 0 "Pump5" H 5972 1874 50  0000 R CNN
 F 1 "Conn_01x04_Male" H 5972 1783 50  0000 R CNN
 F 2 "ConnectorsEvo:B04B-PASK" H 6000 1900 50  0001 C CNN
 F 3 "~" H 6000 1900 50  0001 C CNN
@@ -475,8 +475,8 @@ AR Path="/5FD48098/602E0CC3" Ref="pump?"  Part="1"
 AR Path="/602E0CC3" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/602E0CC3" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/601EAF49/602E0CC3" Ref="pump?"  Part="1" 
-AR Path="/6021D0EA/602C425D/602E0CC3" Ref="pump6"  Part="1" 
-F 0 "pump6" H 5972 2924 50  0000 R CNN
+AR Path="/6021D0EA/602C425D/602E0CC3" Ref="Pump6"  Part="1" 
+F 0 "Pump6" H 5972 2924 50  0000 R CNN
 F 1 "Conn_01x04_Male" H 5972 2833 50  0000 R CNN
 F 2 "ConnectorsEvo:B04B-PASK" H 6000 2950 50  0001 C CNN
 F 3 "~" H 6000 2950 50  0001 C CNN
@@ -554,8 +554,8 @@ AR Path="/5FD48098/602E0CE0" Ref="pump?"  Part="1"
 AR Path="/602E0CE0" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/602E0CE0" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/601EAF49/602E0CE0" Ref="pump?"  Part="1" 
-AR Path="/6021D0EA/602C425D/602E0CE0" Ref="pump7"  Part="1" 
-F 0 "pump7" H 5972 3974 50  0000 R CNN
+AR Path="/6021D0EA/602C425D/602E0CE0" Ref="Pump7"  Part="1" 
+F 0 "Pump7" H 5972 3974 50  0000 R CNN
 F 1 "Conn_01x04_Male" H 5972 3883 50  0000 R CNN
 F 2 "ConnectorsEvo:B04B-PASK" H 6000 4000 50  0001 C CNN
 F 3 "~" H 6000 4000 50  0001 C CNN
@@ -633,8 +633,8 @@ AR Path="/5FD48098/602E0CFD" Ref="pump?"  Part="1"
 AR Path="/602E0CFD" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/602E0CFD" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/601EAF49/602E0CFD" Ref="pump?"  Part="1" 
-AR Path="/6021D0EA/602C425D/602E0CFD" Ref="pump8"  Part="1" 
-F 0 "pump8" H 5972 5024 50  0000 R CNN
+AR Path="/6021D0EA/602C425D/602E0CFD" Ref="Pump8"  Part="1" 
+F 0 "Pump8" H 5972 5024 50  0000 R CNN
 F 1 "Conn_01x04_Male" H 5972 4933 50  0000 R CNN
 F 2 "ConnectorsEvo:B04B-PASK" H 6000 5050 50  0001 C CNN
 F 3 "~" H 6000 5050 50  0001 C CNN
@@ -712,8 +712,8 @@ AR Path="/5FD48098/602F3AD6" Ref="pump?"  Part="1"
 AR Path="/602F3AD6" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/602F3AD6" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/601EAF49/602F3AD6" Ref="pump?"  Part="1" 
-AR Path="/6021D0EA/602C425D/602F3AD6" Ref="pump9"  Part="1" 
-F 0 "pump9" H 7722 1874 50  0000 R CNN
+AR Path="/6021D0EA/602C425D/602F3AD6" Ref="Pump9"  Part="1" 
+F 0 "Pump9" H 7722 1874 50  0000 R CNN
 F 1 "Conn_01x04_Male" H 7722 1783 50  0000 R CNN
 F 2 "ConnectorsEvo:B04B-PASK" H 7750 1900 50  0001 C CNN
 F 3 "~" H 7750 1900 50  0001 C CNN
@@ -791,8 +791,8 @@ AR Path="/5FD48098/602F3AF3" Ref="pump?"  Part="1"
 AR Path="/602F3AF3" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/602F3AF3" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/601EAF49/602F3AF3" Ref="pump?"  Part="1" 
-AR Path="/6021D0EA/602C425D/602F3AF3" Ref="pump10"  Part="1" 
-F 0 "pump10" H 7722 2924 50  0000 R CNN
+AR Path="/6021D0EA/602C425D/602F3AF3" Ref="Pump10"  Part="1" 
+F 0 "Pump10" H 7722 2924 50  0000 R CNN
 F 1 "Conn_01x04_Male" H 7722 2833 50  0000 R CNN
 F 2 "ConnectorsEvo:B04B-PASK" H 7750 2950 50  0001 C CNN
 F 3 "~" H 7750 2950 50  0001 C CNN
@@ -870,8 +870,8 @@ AR Path="/5FD48098/602F3B10" Ref="pump?"  Part="1"
 AR Path="/602F3B10" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/602F3B10" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/601EAF49/602F3B10" Ref="pump?"  Part="1" 
-AR Path="/6021D0EA/602C425D/602F3B10" Ref="pump11"  Part="1" 
-F 0 "pump11" H 7722 3974 50  0000 R CNN
+AR Path="/6021D0EA/602C425D/602F3B10" Ref="Pump11"  Part="1" 
+F 0 "Pump11" H 7722 3974 50  0000 R CNN
 F 1 "Conn_01x04_Male" H 7722 3883 50  0000 R CNN
 F 2 "ConnectorsEvo:B04B-PASK" H 7750 4000 50  0001 C CNN
 F 3 "~" H 7750 4000 50  0001 C CNN
@@ -949,8 +949,8 @@ AR Path="/5FD48098/602F3B2D" Ref="pump?"  Part="1"
 AR Path="/602F3B2D" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/602F3B2D" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/601EAF49/602F3B2D" Ref="pump?"  Part="1" 
-AR Path="/6021D0EA/602C425D/602F3B2D" Ref="pump12"  Part="1" 
-F 0 "pump12" H 7722 5024 50  0000 R CNN
+AR Path="/6021D0EA/602C425D/602F3B2D" Ref="Pump12"  Part="1" 
+F 0 "Pump12" H 7722 5024 50  0000 R CNN
 F 1 "Conn_01x04_Male" H 7722 4933 50  0000 R CNN
 F 2 "ConnectorsEvo:B04B-PASK" H 7750 5050 50  0001 C CNN
 F 3 "~" H 7750 5050 50  0001 C CNN
