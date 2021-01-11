@@ -92,8 +92,6 @@ Text HLabel 4050 1900 0    50   Input ~ 0
 A0
 Text HLabel 4050 2000 0    50   Input ~ 0
 A1
-Text HLabel 3900 1650 2    50   Input ~ 0
-12V_BAU
 Wire Wire Line
 	3900 2850 4050 2850
 Connection ~ 3900 2850
@@ -173,8 +171,6 @@ Text HLabel 4050 2950 0    50   Input ~ 0
 A2
 Text HLabel 4050 3050 0    50   Input ~ 0
 A3
-Text HLabel 3900 2700 2    50   Input ~ 0
-12V_BAU
 Wire Wire Line
 	3900 3900 4050 3900
 Connection ~ 3900 3900
@@ -254,8 +250,6 @@ Text HLabel 4050 4000 0    50   Input ~ 0
 A4
 Text HLabel 4050 4100 0    50   Input ~ 0
 A5
-Text HLabel 3900 3750 2    50   Input ~ 0
-12V_BAU
 Wire Wire Line
 	3900 4950 4050 4950
 Connection ~ 3900 4950
@@ -335,8 +329,6 @@ Text HLabel 4050 5050 0    50   Input ~ 0
 A6
 Text HLabel 4050 5150 0    50   Input ~ 0
 A7
-Text HLabel 3900 4800 2    50   Input ~ 0
-12V_BAU
 Wire Wire Line
 	5650 1800 5800 1800
 Connection ~ 5650 1800
@@ -416,8 +408,6 @@ Text HLabel 5800 1900 0    50   Input ~ 0
 B0
 Text HLabel 5800 2000 0    50   Input ~ 0
 B1
-Text HLabel 5650 1650 2    50   Input ~ 0
-12V_BAU
 Wire Wire Line
 	5650 2850 5800 2850
 Connection ~ 5650 2850
@@ -497,8 +487,6 @@ Text HLabel 5800 2950 0    50   Input ~ 0
 B2
 Text HLabel 5800 3050 0    50   Input ~ 0
 B3
-Text HLabel 5650 2700 2    50   Input ~ 0
-12V_BAU
 Wire Wire Line
 	5650 3900 5800 3900
 Connection ~ 5650 3900
@@ -578,8 +566,6 @@ Text HLabel 5800 4000 0    50   Input ~ 0
 B4
 Text HLabel 5800 4100 0    50   Input ~ 0
 B5
-Text HLabel 5650 3750 2    50   Input ~ 0
-12V_BAU
 Wire Wire Line
 	5650 4950 5800 4950
 Connection ~ 5650 4950
@@ -659,8 +645,6 @@ Text HLabel 5800 5050 0    50   Input ~ 0
 B6
 Text HLabel 5800 5150 0    50   Input ~ 0
 B7
-Text HLabel 5650 4800 2    50   Input ~ 0
-12V_BAU
 Wire Wire Line
 	7400 1800 7550 1800
 Connection ~ 7400 1800
@@ -740,8 +724,6 @@ Text HLabel 7550 1900 0    50   Input ~ 0
 A8
 Text HLabel 7550 2000 0    50   Input ~ 0
 A9
-Text HLabel 7400 1650 2    50   Input ~ 0
-12V_BAU
 Wire Wire Line
 	7400 2850 7550 2850
 Connection ~ 7400 2850
@@ -821,8 +803,6 @@ Text HLabel 7550 2950 0    50   Input ~ 0
 A10
 Text HLabel 7550 3050 0    50   Input ~ 0
 A11
-Text HLabel 7400 2700 2    50   Input ~ 0
-12V_BAU
 Wire Wire Line
 	7400 3900 7550 3900
 Connection ~ 7400 3900
@@ -902,8 +882,6 @@ Text HLabel 7550 4000 0    50   Input ~ 0
 A12
 Text HLabel 7550 4100 0    50   Input ~ 0
 A13
-Text HLabel 7400 3750 2    50   Input ~ 0
-12V_BAU
 Wire Wire Line
 	7400 4950 7550 4950
 Connection ~ 7400 4950
@@ -983,8 +961,6 @@ Text HLabel 7550 5050 0    50   Input ~ 0
 A14
 Text HLabel 7550 5150 0    50   Input ~ 0
 A15
-Text HLabel 7400 4800 2    50   Input ~ 0
-12V_BAU
 Wire Notes Line
 	500  500  500  6500
 Wire Notes Line
@@ -995,4 +971,28 @@ Wire Notes Line
 	11200 500  500  500 
 Text Notes 550  600  0    50   ~ 0
 PUMPS\n
+Text GLabel 3900 4800 2    50   Input ~ 0
+12V_BAU
+Text GLabel 5650 4800 2    50   Input ~ 0
+12V_BAU
+Text GLabel 7400 4800 2    50   Input ~ 0
+12V_BAU
+Text GLabel 7400 3750 2    50   Input ~ 0
+12V_BAU
+Text GLabel 5650 3750 2    50   Input ~ 0
+12V_BAU
+Text GLabel 3900 3750 2    50   Input ~ 0
+12V_BAU
+Text GLabel 3900 2700 2    50   Input ~ 0
+12V_BAU
+Text GLabel 5650 2700 2    50   Input ~ 0
+12V_BAU
+Text GLabel 7400 2700 2    50   Input ~ 0
+12V_BAU
+Text GLabel 7400 1650 2    50   Input ~ 0
+12V_BAU
+Text GLabel 5650 1650 2    50   Input ~ 0
+12V_BAU
+Text GLabel 3900 1650 2    50   Input ~ 0
+12V_BAU
 $EndSCHEMATC

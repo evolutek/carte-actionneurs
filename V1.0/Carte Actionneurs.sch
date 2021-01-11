@@ -623,134 +623,84 @@ $EndBitmap
 $Comp
 L power:GND #PWR?
 U 1 1 5F7B410C
-P 1600 1800
+P 1550 1400
 AR Path="/5F228A8A/5F7B410C" Ref="#PWR?"  Part="1" 
 AR Path="/5F2F5084/5F7B410C" Ref="#PWR?"  Part="1" 
 AR Path="/5FC9C69B/5F7B410C" Ref="#PWR?"  Part="1" 
 AR Path="/5F7B06AE/5F7B410C" Ref="#PWR?"  Part="1" 
 AR Path="/5F4DF949/5F7B410C" Ref="#PWR?"  Part="1" 
 AR Path="/5F7B410C" Ref="#PWR033"  Part="1" 
-F 0 "#PWR033" H 1600 1550 50  0001 C CNN
-F 1 "GND" V 1550 1700 50  0000 R CNN
-F 2 "" H 1600 1800 50  0001 C CNN
-F 3 "" H 1600 1800 50  0001 C CNN
-	1    1600 1800
+F 0 "#PWR033" H 1550 1150 50  0001 C CNN
+F 1 "GND" V 1500 1300 50  0000 R CNN
+F 2 "" H 1550 1400 50  0001 C CNN
+F 3 "" H 1550 1400 50  0001 C CNN
+	1    1550 1400
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F7B4112
-P 2500 1600
+P 2450 1200
 AR Path="/5F228A8A/5F7B4112" Ref="#PWR?"  Part="1" 
 AR Path="/5F2F5084/5F7B4112" Ref="#PWR?"  Part="1" 
 AR Path="/5FC9C69B/5F7B4112" Ref="#PWR?"  Part="1" 
 AR Path="/5F7B06AE/5F7B4112" Ref="#PWR?"  Part="1" 
 AR Path="/5F4DF949/5F7B4112" Ref="#PWR?"  Part="1" 
 AR Path="/5F7B4112" Ref="#PWR035"  Part="1" 
-F 0 "#PWR035" H 2500 1350 50  0001 C CNN
-F 1 "GND" V 2505 1472 50  0000 R CNN
-F 2 "" H 2500 1600 50  0001 C CNN
-F 3 "" H 2500 1600 50  0001 C CNN
-	1    2500 1600
+F 0 "#PWR035" H 2450 950 50  0001 C CNN
+F 1 "GND" V 2500 1100 50  0000 R CNN
+F 2 "" H 2450 1200 50  0001 C CNN
+F 3 "" H 2450 1200 50  0001 C CNN
+	1    2450 1200
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5F7B4118
-P 2500 1500
+P 2450 1100
 AR Path="/5F228A8A/5F7B4118" Ref="#PWR?"  Part="1" 
 AR Path="/5F2F5084/5F7B4118" Ref="#PWR?"  Part="1" 
 AR Path="/5FC9C69B/5F7B4118" Ref="#PWR?"  Part="1" 
 AR Path="/5F7B06AE/5F7B4118" Ref="#PWR?"  Part="1" 
 AR Path="/5F4DF949/5F7B4118" Ref="#PWR?"  Part="1" 
 AR Path="/5F7B4118" Ref="#PWR034"  Part="1" 
-F 0 "#PWR034" H 2500 1350 50  0001 C CNN
-F 1 "+5V" V 2500 1600 50  0000 L CNN
-F 2 "" H 2500 1500 50  0001 C CNN
-F 3 "" H 2500 1500 50  0001 C CNN
-	1    2500 1500
+F 0 "#PWR034" H 2450 950 50  0001 C CNN
+F 1 "+5V" V 2400 1200 50  0000 L CNN
+F 2 "" H 2450 1100 50  0001 C CNN
+F 3 "" H 2450 1100 50  0001 C CNN
+	1    2450 1100
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5F7B411E
-P 2500 1800
+P 2450 1400
 AR Path="/5F228A8A/5F7B411E" Ref="#PWR?"  Part="1" 
 AR Path="/5F2F5084/5F7B411E" Ref="#PWR?"  Part="1" 
 AR Path="/5FC9C69B/5F7B411E" Ref="#PWR?"  Part="1" 
 AR Path="/5F7B06AE/5F7B411E" Ref="#PWR?"  Part="1" 
 AR Path="/5F4DF949/5F7B411E" Ref="#PWR?"  Part="1" 
 AR Path="/5F7B411E" Ref="#PWR036"  Part="1" 
-F 0 "#PWR036" H 2500 1650 50  0001 C CNN
-F 1 "+5V" V 2515 1928 50  0000 L CNN
-F 2 "" H 2500 1800 50  0001 C CNN
-F 3 "" H 2500 1800 50  0001 C CNN
-	1    2500 1800
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5F7B4124
-P 2500 2800
-AR Path="/5F228A8A/5F7B4124" Ref="#PWR?"  Part="1" 
-AR Path="/5F2F5084/5F7B4124" Ref="#PWR?"  Part="1" 
-AR Path="/5FC9C69B/5F7B4124" Ref="#PWR?"  Part="1" 
-AR Path="/5F7B06AE/5F7B4124" Ref="#PWR?"  Part="1" 
-AR Path="/5F4DF949/5F7B4124" Ref="#PWR?"  Part="1" 
-AR Path="/5F7B4124" Ref="#PWR037"  Part="1" 
-F 0 "#PWR037" H 2500 2650 50  0001 C CNN
-F 1 "+3.3V" V 2450 2900 50  0000 L CNN
-F 2 "" H 2500 2800 50  0001 C CNN
-F 3 "" H 2500 2800 50  0001 C CNN
-	1    2500 2800
+F 0 "#PWR036" H 2450 1250 50  0001 C CNN
+F 1 "+5V" V 2400 1500 50  0000 L CNN
+F 2 "" H 2450 1400 50  0001 C CNN
+F 3 "" H 2450 1400 50  0001 C CNN
+	1    2450 1400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2500 2600 2800 2600
+	1550 1500 1250 1500
 Wire Wire Line
-	2500 2500 2800 2500
-Wire Wire Line
-	2500 2300 2800 2300
-Wire Wire Line
-	1600 1900 1300 1900
-Wire Wire Line
-	1600 2700 1300 2700
-Text Label 1300 2700 0    50   ~ 0
+	1550 2300 1250 2300
+Text Label 1250 2300 0    50   ~ 0
 CAN_RX
-Text Label 1300 1900 0    50   ~ 0
+Text Label 1250 1500 0    50   ~ 0
 CAN_TX
 Wire Wire Line
-	1600 2100 1300 2100
-Wire Wire Line
-	1600 2200 1300 2200
-Text Label 1300 2100 0    50   ~ 0
-SDA
-Text Label 1300 2200 0    50   ~ 0
-SCL
-Wire Wire Line
-	1600 1500 1300 1500
-Text Label 1300 1500 0    50   ~ 0
+	1550 1100 1250 1100
+Text Label 1250 1100 0    50   ~ 0
 TX
-Wire Wire Line
-	1600 2900 1300 2900
-Wire Wire Line
-	2500 2000 2800 2000
-NoConn ~ 2500 1900
-Wire Wire Line
-	2500 2100 2800 2100
-NoConn ~ 2500 2700
-Wire Wire Line
-	1600 2300 1300 2300
-Wire Wire Line
-	1600 2600 1300 2600
-Wire Wire Line
-	1600 2800 1300 2800
-Wire Wire Line
-	2500 2400 2800 2400
-Wire Wire Line
-	1600 2000 1300 2000
-Wire Wire Line
-	1600 1600 1300 1600
+NoConn ~ 2450 2300
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5FC1FF4E
@@ -827,40 +777,6 @@ Wire Wire Line
 	9900 3000 9900 3200
 Text Label 9900 3200 1    50   ~ 0
 SCL
-Wire Wire Line
-	2500 2900 2800 2900
-Wire Wire Line
-	1600 2400 1300 2400
-Text Label 1300 2000 0    50   ~ 0
-PB0
-Text Label 1300 2300 0    50   ~ 0
-PB1
-Text Label 2800 2900 2    50   ~ 0
-PB3
-Text Label 1300 2800 0    50   ~ 0
-PB5
-Text Label 2800 2400 2    50   ~ 0
-PA3
-Text Label 1300 2600 0    50   ~ 0
-PA8
-Text Label 2800 2000 2    50   ~ 0
-MOSI
-Text Label 2800 2100 2    50   ~ 0
-MISO
-Text Label 2800 2200 2    50   ~ 0
-SCK
-Text Label 1300 1600 0    50   ~ 0
-PA10
-Text Label 1300 2400 0    50   ~ 0
-PF0
-Text Label 1300 2900 0    50   ~ 0
-PB4
-Text Label 2800 2300 2    50   ~ 0
-PA4
-Text Label 2800 2500 2    50   ~ 0
-PA1
-Text Label 2800 2600 2    50   ~ 0
-PA0
 $Comp
 L Connector:Conn_01x02_Male J4
 U 1 1 5FB8EEFB
@@ -883,26 +799,24 @@ AR Path="/5F7B06AE/5FB92424" Ref="#PWR?"  Part="1"
 AR Path="/5F4DF949/5FB92424" Ref="#PWR?"  Part="1" 
 AR Path="/5FB92424" Ref="#PWR032"  Part="1" 
 F 0 "#PWR032" H 2200 4700 50  0001 C CNN
-F 1 "GND" H 2205 4777 50  0000 C CNN
+F 1 "GND" H 2250 4800 50  0000 C CNN
 F 2 "" H 2200 4950 50  0001 C CNN
 F 3 "" H 2200 4950 50  0001 C CNN
 	1    2200 4950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 1700 2800 1700
+	2450 1300 2750 1300
 Wire Wire Line
-	1600 1700 1300 1700
-Text Label 2800 1700 2    50   ~ 0
+	1550 1300 1250 1300
+Text Label 2750 1300 2    50   ~ 0
 RST
-Text Label 1300 1700 0    50   ~ 0
+Text Label 1250 1300 0    50   ~ 0
 RST
 Wire Wire Line
-	1600 2500 1300 2500
-Text Label 1300 2500 0    50   ~ 0
+	1550 2100 1250 2100
+Text Label 1250 2100 0    50   ~ 0
 BAU
-Wire Wire Line
-	2800 2200 2500 2200
 $Comp
 L Connector:Conn_01x04_Male J6
 U 1 1 5FDB7A81
@@ -978,55 +892,55 @@ F 3 "" H 2550 6900 50  0001 C CNN
 	1    2550 6900
 	1    0    0    -1  
 $EndComp
-Text Label 3450 1950 1    50   ~ 0
+Text Label 3400 1550 1    50   ~ 0
 RST
 Wire Wire Line
-	3450 1750 3450 1950
+	3400 1350 3400 1550
 $Comp
 L Device:R R?
 U 1 1 5F7B41A8
-P 3450 1600
+P 3400 1200
 AR Path="/5F228A8A/5F7B41A8" Ref="R?"  Part="1" 
 AR Path="/5F2F5084/5F7B41A8" Ref="R?"  Part="1" 
 AR Path="/5FC9C69B/5F7B41A8" Ref="R?"  Part="1" 
 AR Path="/5F7B06AE/5F7B41A8" Ref="R?"  Part="1" 
 AR Path="/5F4DF949/5F7B41A8" Ref="R?"  Part="1" 
 AR Path="/5F7B41A8" Ref="R4"  Part="1" 
-F 0 "R4" H 3380 1554 50  0000 R CNN
-F 1 "10K" H 3380 1645 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3380 1600 50  0001 C CNN
-F 3 "~" H 3450 1600 50  0001 C CNN
-	1    3450 1600
+F 0 "R4" H 3330 1154 50  0000 R CNN
+F 1 "10K" H 3330 1245 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3330 1200 50  0001 C CNN
+F 3 "~" H 3400 1200 50  0001 C CNN
+	1    3400 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L ComponentsEvo:NUCLEO-F303K8 U?
 U 1 1 5F7B4106
-P 2050 2200
+P 2000 1800
 AR Path="/5F228A8A/5F7B4106" Ref="U?"  Part="1" 
 AR Path="/5F2F5084/5F7B4106" Ref="U?"  Part="1" 
 AR Path="/5FC9C69B/5F7B4106" Ref="U?"  Part="1" 
 AR Path="/5F7B06AE/5F7B4106" Ref="U?"  Part="1" 
 AR Path="/5F4DF949/5F7B4106" Ref="U?"  Part="1" 
 AR Path="/5F7B4106" Ref="U2"  Part="1" 
-F 0 "U2" H 2050 3165 50  0000 C CNN
-F 1 "NUCLEO-F303K8" H 2050 3074 50  0000 C CNN
-F 2 "ComponentsEvo:MODULE_NUCLEO-F303K8" H 3200 2950 50  0001 L BNN
-F 3 "ST Microelectronics" H 3250 2750 50  0001 L BNN
-F 4 "3" H 3300 2600 50  0001 L BNN "Field4"
-F 5 "Manufacturer rEcommendation" H 3200 2850 50  0001 L BNN "Field5"
-	1    2050 2200
+F 0 "U2" H 2000 2765 50  0000 C CNN
+F 1 "NUCLEO-F303K8" H 2000 2674 50  0000 C CNN
+F 2 "ComponentsEvo:MODULE_NUCLEO-F303K8" H 3150 2550 50  0001 L BNN
+F 3 "ST Microelectronics" H 3200 2350 50  0001 L BNN
+F 4 "3" H 3250 2200 50  0001 L BNN "Field4"
+F 5 "Manufacturer rEcommendation" H 3150 2450 50  0001 L BNN "Field5"
+	1    2000 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR018
 U 1 1 60369359
-P 3450 1450
-F 0 "#PWR018" H 3450 1300 50  0001 C CNN
-F 1 "+3.3V" H 3465 1623 50  0000 C CNN
-F 2 "" H 3450 1450 50  0001 C CNN
-F 3 "" H 3450 1450 50  0001 C CNN
-	1    3450 1450
+P 3400 1050
+F 0 "#PWR018" H 3400 900 50  0001 C CNN
+F 1 "+3.3V" H 3415 1223 50  0000 C CNN
+F 2 "" H 3400 1050 50  0001 C CNN
+F 3 "" H 3400 1050 50  0001 C CNN
+	1    3400 1050
 	1    0    0    -1  
 $EndComp
 Text Label 5300 2850 0    50   ~ 0
@@ -1120,7 +1034,7 @@ AR Path="/5F7B06AE/5F7B4174" Ref="R?"  Part="1"
 AR Path="/5F4DF949/5F7B4174" Ref="R?"  Part="1" 
 AR Path="/5F7B4174" Ref="R2"  Part="1" 
 F 0 "R2" V 7050 2600 50  0000 C CNN
-F 1 "1K" V 7050 2350 50  0000 C CNN
+F 1 "4.7K" V 7050 2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6880 2500 50  0001 C CNN
 F 3 "~" H 6950 2500 50  0001 C CNN
 	1    6950 2500
@@ -1212,20 +1126,16 @@ F 3 "http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf" H 6300 2700 50 
 	-1   0    0    1   
 $EndComp
 $Sheet
-S 8700 4900 900  700 
+S 8700 4900 700  600 
 U 6021D0EA
 F0 "Actuators" 50
 F1 "Actuators.sch" 50
 F2 "SDA" B L 8700 5000 50 
 F3 "SCL" I L 8700 5100 50 
 F4 "TX" I L 8700 5300 50 
-F5 "12V_BAU" I L 8700 5500 50 
-F6 "Int" O R 9600 5000 50 
+F5 "INT" O R 9400 5000 50 
+F6 "BAU" I L 8700 5400 50 
 $EndSheet
-Text Label 2100 5350 1    50   ~ 0
-12V_BAU
-Wire Wire Line
-	2100 4950 2100 5350
 $Comp
 L Connector:Conn_01x06_Male J2
 U 1 1 5FFDA841
@@ -1282,8 +1192,6 @@ F 3 "" H 7050 1450 50  0001 C CNN
 	1    7050 1450
 	1    0    0    -1  
 $EndComp
-Text Notes 6300 250  0    50   ~ 0
-TODO: Why\n1k CAN ?
 $Comp
 L Device:C C5
 U 1 1 5FFD308A
@@ -1407,10 +1315,6 @@ F 3 "" H 4100 5100 50  0001 C CNN
 	1    4100 5100
 	1    0    0    -1  
 $EndComp
-Text Label 4100 4450 3    50   ~ 0
-12V_BAU
-Wire Wire Line
-	4100 4800 4100 4450
 $Comp
 L power:+12V #PWR013
 U 1 1 5FFE1BE3
@@ -1482,10 +1386,6 @@ Wire Notes Line
 	6950 4000 4700 4000
 Text Notes 4750 4100 0    50   ~ 0
 BAU
-Text Label 5950 4350 3    50   ~ 0
-12V_BAU
-Wire Wire Line
-	5950 4350 5950 4700
 $Comp
 L Device:R R7
 U 1 1 60082169
@@ -1583,57 +1483,51 @@ F 3 "" H 5850 6950 50  0001 C CNN
 	1    5850 6950
 	1    0    0    -1  
 $EndComp
-Text Label 5850 6300 3    50   ~ 0
-12V_BAU
-Wire Wire Line
-	5850 6650 5850 6300
 $Comp
 L power:+5V #PWR?
 U 1 1 600A2BAD
-P 3450 2450
+P 3400 2050
 AR Path="/5F228A8A/600A2BAD" Ref="#PWR?"  Part="1" 
 AR Path="/5F2F5084/600A2BAD" Ref="#PWR?"  Part="1" 
 AR Path="/5FC9C69B/600A2BAD" Ref="#PWR?"  Part="1" 
 AR Path="/5F7B06AE/600A2BAD" Ref="#PWR?"  Part="1" 
 AR Path="/5F4DF949/600A2BAD" Ref="#PWR?"  Part="1" 
 AR Path="/600A2BAD" Ref="#PWR019"  Part="1" 
-F 0 "#PWR019" H 3450 2300 50  0001 C CNN
-F 1 "+5V" H 3465 2623 50  0000 C CNN
-F 2 "" H 3450 2450 50  0001 C CNN
-F 3 "" H 3450 2450 50  0001 C CNN
-	1    3450 2450
+F 0 "#PWR019" H 3400 1900 50  0001 C CNN
+F 1 "+5V" H 3415 2223 50  0000 C CNN
+F 2 "" H 3400 2050 50  0001 C CNN
+F 3 "" H 3400 2050 50  0001 C CNN
+	1    3400 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C4
 U 1 1 600A2BB3
-P 3450 2600
-F 0 "C4" H 3565 2646 50  0000 L CNN
-F 1 "100nF" H 3565 2555 50  0000 L CNN
-F 2 "" H 3488 2450 50  0001 C CNN
-F 3 "~" H 3450 2600 50  0001 C CNN
-	1    3450 2600
+P 3400 2200
+F 0 "C4" H 3515 2246 50  0000 L CNN
+F 1 "100nF" H 3515 2155 50  0000 L CNN
+F 2 "" H 3438 2050 50  0001 C CNN
+F 3 "~" H 3400 2200 50  0001 C CNN
+	1    3400 2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 600A2BB9
-P 3450 2750
+P 3400 2350
 AR Path="/5F228A8A/600A2BB9" Ref="#PWR?"  Part="1" 
 AR Path="/5F2F5084/600A2BB9" Ref="#PWR?"  Part="1" 
 AR Path="/5FC9C69B/600A2BB9" Ref="#PWR?"  Part="1" 
 AR Path="/5F7B06AE/600A2BB9" Ref="#PWR?"  Part="1" 
 AR Path="/5F4DF949/600A2BB9" Ref="#PWR?"  Part="1" 
 AR Path="/600A2BB9" Ref="#PWR020"  Part="1" 
-F 0 "#PWR020" H 3450 2500 50  0001 C CNN
-F 1 "GND" H 3455 2577 50  0000 C CNN
-F 2 "" H 3450 2750 50  0001 C CNN
-F 3 "" H 3450 2750 50  0001 C CNN
-	1    3450 2750
+F 0 "#PWR020" H 3400 2100 50  0001 C CNN
+F 1 "GND" H 3405 2177 50  0000 C CNN
+F 2 "" H 3400 2350 50  0001 C CNN
+F 3 "" H 3400 2350 50  0001 C CNN
+	1    3400 2350
 	1    0    0    -1  
 $EndComp
-Text Notes 1600 200  0    50   ~ 0
-TODO: Verifier RST\n
 Text Label 8500 5100 0    50   ~ 0
 SCL
 Text Label 8500 5000 0    50   ~ 0
@@ -1642,10 +1536,6 @@ Wire Wire Line
 	8500 5000 8700 5000
 Wire Wire Line
 	8500 5100 8700 5100
-Text Notes 1600 300  0    50   ~ 0
-TODO: A quoi servent les pins ?
-Text Notes 5000 8000 0    50   ~ 0
-TODO: BAU sur son propre pin ou en I2C ?
 Wire Wire Line
 	2250 6500 2250 6600
 Wire Wire Line
@@ -1763,14 +1653,110 @@ F 3 "" H 1500 6200 50  0001 C CNN
 $EndComp
 Text Notes 2200 6050 0    50   ~ 0
 Allows 3.3V generation if \nwe don't use the nucleo
-Text Notes 11400 5150 0    50   ~ 0
-TODO on le connecte ou ce int\n
-Wire Wire Line
-	8700 5500 8300 5500
-Text Label 8300 5500 0    50   ~ 0
-12V_BAU
 Text Label 8500 5300 0    50   ~ 0
 TX
 Wire Wire Line
 	8500 5300 8700 5300
+Text Label 1250 1800 0    50   ~ 0
+SCL
+Text Label 1250 1700 0    50   ~ 0
+SDA
+Wire Wire Line
+	1550 1800 1250 1800
+Wire Wire Line
+	1550 1700 1250 1700
+Text GLabel 5950 4700 1    50   Input ~ 0
+12V_BAU
+Text GLabel 4100 4800 1    50   Input ~ 0
+12V_BAU
+Text GLabel 2100 4950 3    50   Input ~ 0
+12V_BAU
+Text GLabel 5850 6650 1    50   Input ~ 0
+12V_BAU
+Wire Wire Line
+	9400 5000 9600 5000
+Text Label 9600 5000 2    50   ~ 0
+INT
+Wire Wire Line
+	8700 5400 8500 5400
+Text Label 8500 5400 0    50   ~ 0
+BAU
+NoConn ~ 2450 1600
+NoConn ~ 2450 1700
+NoConn ~ 2450 1800
+NoConn ~ 2450 1900
+NoConn ~ 1550 2400
+NoConn ~ 1550 2500
+NoConn ~ 1550 2200
+NoConn ~ 1550 2000
+NoConn ~ 1550 1900
+NoConn ~ 1550 1600
+NoConn ~ 1550 1200
+NoConn ~ 2450 2500
+Wire Wire Line
+	2450 1500 2750 1500
+Text Label 2750 1500 2    50   ~ 0
+INT
+$Comp
+L power:+3.3V #PWR037
+U 1 1 600692D4
+P 2450 2400
+F 0 "#PWR037" H 2450 2250 50  0001 C CNN
+F 1 "+3.3V" V 2465 2528 50  0000 L CNN
+F 2 "" H 2450 2400 50  0001 C CNN
+F 3 "" H 2450 2400 50  0001 C CNN
+	1    2450 2400
+	0    1    1    0   
+$EndComp
+Text GLabel 2450 2100 2    50   Input ~ 0
+RECAL2
+Text GLabel 2450 2200 2    50   Input ~ 0
+RECAL1
+Wire Wire Line
+	2450 2000 2750 2000
+Text Label 2750 2000 2    50   ~ 0
+LED
+Wire Wire Line
+	2000 3300 2200 3300
+Text Label 2000 3300 0    50   ~ 0
+LED
+$Comp
+L Device:LED D9
+U 1 1 6007B6E4
+P 2350 3300
+F 0 "D9" H 2343 3045 50  0000 C CNN
+F 1 "GREEN" H 2343 3136 50  0000 C CNN
+F 2 "" H 2350 3300 50  0001 C CNN
+F 3 "~" H 2350 3300 50  0001 C CNN
+	1    2350 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R39
+U 1 1 6007BD46
+P 2650 3300
+F 0 "R39" V 2443 3300 50  0000 C CNN
+F 1 "68" V 2534 3300 50  0000 C CNN
+F 2 "" V 2580 3300 50  0001 C CNN
+F 3 "~" H 2650 3300 50  0001 C CNN
+	1    2650 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6007C12E
+P 2800 3300
+AR Path="/5F228A8A/6007C12E" Ref="#PWR?"  Part="1" 
+AR Path="/5F2F5084/6007C12E" Ref="#PWR?"  Part="1" 
+AR Path="/5FC9C69B/6007C12E" Ref="#PWR?"  Part="1" 
+AR Path="/5F7B06AE/6007C12E" Ref="#PWR?"  Part="1" 
+AR Path="/5F4DF949/6007C12E" Ref="#PWR?"  Part="1" 
+AR Path="/6007C12E" Ref="#PWR094"  Part="1" 
+F 0 "#PWR094" H 2800 3050 50  0001 C CNN
+F 1 "GND" H 2805 3127 50  0000 C CNN
+F 2 "" H 2800 3300 50  0001 C CNN
+F 3 "" H 2800 3300 50  0001 C CNN
+	1    2800 3300
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
