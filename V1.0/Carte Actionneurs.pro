@@ -1,4 +1,4 @@
-update=09/12/2020 23:09:23
+update=13/01/2021 10:31:46
 version=1
 last_client=kicad
 [general]
@@ -12,10 +12,20 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Module Actuators.net
+LastNetListRead=Carte Actionneurs.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -35,6 +45,8 @@ TrackWidth4=0.5
 TrackWidth5=1
 TrackWidth6=1.5
 TrackWidth7=2
+TrackWidth8=2.5
+TrackWidth9=4
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -242,13 +254,3 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
