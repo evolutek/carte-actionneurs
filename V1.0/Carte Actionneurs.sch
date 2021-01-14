@@ -1487,9 +1487,6 @@ F 3 "~" H 3050 6650 50  0001 C CNN
 	1    3050 6650
 	1    0    0    -1  
 $EndComp
-Connection ~ 3050 6500
-Wire Wire Line
-	3050 6500 3350 6500
 $Comp
 L Device:C C1
 U 1 1 60114977
@@ -1551,12 +1548,12 @@ $EndComp
 $Comp
 L power:+3.3V #PWR017
 U 1 1 6011F1F4
-P 3350 6500
-F 0 "#PWR017" H 3350 6350 50  0001 C CNN
-F 1 "+3.3V" V 3365 6628 50  0000 L CNN
-F 2 "" H 3350 6500 50  0001 C CNN
-F 3 "" H 3350 6500 50  0001 C CNN
-	1    3350 6500
+P 3650 6500
+F 0 "#PWR017" H 3650 6350 50  0001 C CNN
+F 1 "+3.3V" V 3665 6628 50  0000 L CNN
+F 2 "" H 3650 6500 50  0001 C CNN
+F 3 "" H 3650 6500 50  0001 C CNN
+	1    3650 6500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1584,8 +1581,6 @@ F 3 "" H 1500 6200 50  0001 C CNN
 	1    1500 6200
 	1    0    0    -1  
 $EndComp
-Text Notes 2200 6050 0    50   ~ 0
-Allows 3.3V generation if \nwe don't use the nucleo
 Text Label 8500 5300 0    50   ~ 0
 TX
 Wire Wire Line
@@ -1628,17 +1623,6 @@ Wire Wire Line
 	2450 1500 2750 1500
 Text Label 2750 1500 2    50   ~ 0
 INT
-$Comp
-L power:+3.3V #PWR037
-U 1 1 600692D4
-P 2450 2400
-F 0 "#PWR037" H 2450 2250 50  0001 C CNN
-F 1 "+3.3V" V 2465 2528 50  0000 L CNN
-F 2 "" H 2450 2400 50  0001 C CNN
-F 3 "" H 2450 2400 50  0001 C CNN
-	1    2450 2400
-	0    1    1    0   
-$EndComp
 Text GLabel 2450 2100 2    50   Input ~ 0
 RECAL2
 Text GLabel 2450 2200 2    50   Input ~ 0
@@ -1821,4 +1805,19 @@ Wire Notes Line
 	6950 6350 4700 6350
 Text Notes 4750 6450 0    50   ~ 0
 LED STRIP\n
+NoConn ~ 2450 2400
+$Comp
+L Jumper:SolderJumper_2_Open JP3
+U 1 1 60006689
+P 3500 6500
+F 0 "JP3" H 3450 6400 50  0000 L CNN
+F 1 "SolderJumper_2_Open" V 3300 6400 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3500 6500 50  0001 C CNN
+F 3 "~" H 3500 6500 50  0001 C CNN
+	1    3500 6500
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3050 6500 3350 6500
+Connection ~ 3050 6500
 $EndSCHEMATC
