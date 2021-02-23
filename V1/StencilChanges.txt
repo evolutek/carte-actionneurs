@@ -1,0 +1,5 @@
+This file enumerates the changes between the V1.0 stencil and the stencil we would have for the V1.1
+
+- Removed D13 and R43 (Power led: 12V BAU)
+- Removed C24 (Pump9 decoupling)
+- Added a mosfet and a resistor next to the leds connector

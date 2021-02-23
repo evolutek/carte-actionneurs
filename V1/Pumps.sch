@@ -646,85 +646,6 @@ B6
 Text HLabel 5800 5150 0    50   Input ~ 0
 B7
 Wire Wire Line
-	7400 1800 7550 1800
-Connection ~ 7400 1800
-Wire Wire Line
-	7400 1800 7400 1650
-Wire Wire Line
-	7350 2100 7550 2100
-Connection ~ 7350 2100
-Wire Wire Line
-	7050 2100 7350 2100
-Wire Wire Line
-	7050 1800 7050 2100
-Wire Wire Line
-	7350 1800 7400 1800
-$Comp
-L Device:C C?
-U 1 1 602F3ACA
-P 7200 1800
-AR Path="/5FC9C69B/5FD48098/602F3ACA" Ref="C?"  Part="1" 
-AR Path="/5F7B06AE/5FD48098/602F3ACA" Ref="C?"  Part="1" 
-AR Path="/5F4DF949/5FD48098/602F3ACA" Ref="C?"  Part="1" 
-AR Path="/5FD48098/602F3ACA" Ref="C?"  Part="1" 
-AR Path="/602F3ACA" Ref="C?"  Part="1" 
-AR Path="/6021D0EA/602F3ACA" Ref="C?"  Part="1" 
-AR Path="/6021D0EA/601EAF49/602F3ACA" Ref="C?"  Part="1" 
-AR Path="/6021D0EA/602C425D/602F3ACA" Ref="C24"  Part="1" 
-F 0 "C24" V 6948 1800 50  0000 C CNN
-F 1 "4.7uF" V 7039 1800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7238 1650 50  0001 C CNN
-F 3 "~" H 7200 1800 50  0001 C CNN
-	1    7200 1800
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 602F3AD0
-P 7350 2100
-AR Path="/5F228A8A/602F3AD0" Ref="#PWR?"  Part="1" 
-AR Path="/5F2F5084/602F3AD0" Ref="#PWR?"  Part="1" 
-AR Path="/5F2F5084/5F9A6916/602F3AD0" Ref="#PWR?"  Part="1" 
-AR Path="/5FC9C69B/5F9A6916/602F3AD0" Ref="#PWR?"  Part="1" 
-AR Path="/5FC9C69B/5FD48098/602F3AD0" Ref="#PWR?"  Part="1" 
-AR Path="/5F7B06AE/5FD48098/602F3AD0" Ref="#PWR?"  Part="1" 
-AR Path="/5F4DF949/5FD48098/602F3AD0" Ref="#PWR?"  Part="1" 
-AR Path="/5FD48098/602F3AD0" Ref="#PWR?"  Part="1" 
-AR Path="/602F3AD0" Ref="#PWR?"  Part="1" 
-AR Path="/6021D0EA/602F3AD0" Ref="#PWR?"  Part="1" 
-AR Path="/6021D0EA/601EAF49/602F3AD0" Ref="#PWR?"  Part="1" 
-AR Path="/6021D0EA/602C425D/602F3AD0" Ref="#PWR090"  Part="1" 
-F 0 "#PWR090" H 7350 1850 50  0001 C CNN
-F 1 "GND" H 7355 1927 50  0000 C CNN
-F 2 "" H 7350 2100 50  0001 C CNN
-F 3 "" H 7350 2100 50  0001 C CNN
-	1    7350 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x04_Male pump?
-U 1 1 602F3AD6
-P 7750 1900
-AR Path="/5FC9C69B/5FD48098/602F3AD6" Ref="pump?"  Part="1" 
-AR Path="/5F7B06AE/5FD48098/602F3AD6" Ref="pump?"  Part="1" 
-AR Path="/5F4DF949/5FD48098/602F3AD6" Ref="pump?"  Part="1" 
-AR Path="/5FD48098/602F3AD6" Ref="pump?"  Part="1" 
-AR Path="/602F3AD6" Ref="pump?"  Part="1" 
-AR Path="/6021D0EA/602F3AD6" Ref="pump?"  Part="1" 
-AR Path="/6021D0EA/601EAF49/602F3AD6" Ref="pump?"  Part="1" 
-AR Path="/6021D0EA/602C425D/602F3AD6" Ref="Pump9"  Part="1" 
-F 0 "Pump9" H 7722 1874 50  0000 R CNN
-F 1 "Conn_01x04_Male" H 7722 1783 50  0000 R CNN
-F 2 "ConnectorsEvo:B04B-PASK" H 7750 1900 50  0001 C CNN
-F 3 "~" H 7750 1900 50  0001 C CNN
-	1    7750 1900
-	-1   0    0    -1  
-$EndComp
-Text HLabel 7550 1900 0    50   Input ~ 0
-A8
-Text HLabel 7550 2000 0    50   Input ~ 0
-A9
-Wire Wire Line
 	7400 2850 7550 2850
 Connection ~ 7400 2850
 Wire Wire Line
@@ -791,8 +712,8 @@ AR Path="/5FD48098/602F3AF3" Ref="pump?"  Part="1"
 AR Path="/602F3AF3" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/602F3AF3" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/601EAF49/602F3AF3" Ref="pump?"  Part="1" 
-AR Path="/6021D0EA/602C425D/602F3AF3" Ref="Pump10"  Part="1" 
-F 0 "Pump10" H 7722 2924 50  0000 R CNN
+AR Path="/6021D0EA/602C425D/602F3AF3" Ref="Pump9"  Part="1" 
+F 0 "Pump9" H 7722 2924 50  0000 R CNN
 F 1 "Conn_01x04_Male" H 7722 2833 50  0000 R CNN
 F 2 "ConnectorsEvo:B04B-PASK" H 7750 2950 50  0001 C CNN
 F 3 "~" H 7750 2950 50  0001 C CNN
@@ -870,8 +791,8 @@ AR Path="/5FD48098/602F3B10" Ref="pump?"  Part="1"
 AR Path="/602F3B10" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/602F3B10" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/601EAF49/602F3B10" Ref="pump?"  Part="1" 
-AR Path="/6021D0EA/602C425D/602F3B10" Ref="Pump11"  Part="1" 
-F 0 "Pump11" H 7722 3974 50  0000 R CNN
+AR Path="/6021D0EA/602C425D/602F3B10" Ref="Pump10"  Part="1" 
+F 0 "Pump10" H 7722 3974 50  0000 R CNN
 F 1 "Conn_01x04_Male" H 7722 3883 50  0000 R CNN
 F 2 "ConnectorsEvo:B04B-PASK" H 7750 4000 50  0001 C CNN
 F 3 "~" H 7750 4000 50  0001 C CNN
@@ -949,8 +870,8 @@ AR Path="/5FD48098/602F3B2D" Ref="pump?"  Part="1"
 AR Path="/602F3B2D" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/602F3B2D" Ref="pump?"  Part="1" 
 AR Path="/6021D0EA/601EAF49/602F3B2D" Ref="pump?"  Part="1" 
-AR Path="/6021D0EA/602C425D/602F3B2D" Ref="Pump12"  Part="1" 
-F 0 "Pump12" H 7722 5024 50  0000 R CNN
+AR Path="/6021D0EA/602C425D/602F3B2D" Ref="Pump11"  Part="1" 
+F 0 "Pump11" H 7722 5024 50  0000 R CNN
 F 1 "Conn_01x04_Male" H 7722 4933 50  0000 R CNN
 F 2 "ConnectorsEvo:B04B-PASK" H 7750 5050 50  0001 C CNN
 F 3 "~" H 7750 5050 50  0001 C CNN
@@ -988,8 +909,6 @@ Text GLabel 3900 2700 2    50   Input ~ 0
 Text GLabel 5650 2700 2    50   Input ~ 0
 12V_BAU
 Text GLabel 7400 2700 2    50   Input ~ 0
-12V_BAU
-Text GLabel 7400 1650 2    50   Input ~ 0
 12V_BAU
 Text GLabel 5650 1650 2    50   Input ~ 0
 12V_BAU
