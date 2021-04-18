@@ -103,17 +103,6 @@ F 3 "~" H 8300 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Analog_ADC:ADS1114IDGS U7
-U 1 1 6000EBE5
-P 2300 2750
-F 0 "U7" H 1950 3350 50  0000 C CNN
-F 1 "ADS1114IDGS" H 1950 3250 50  0000 C CNN
-F 2 "Package_SO:TSSOP-10_3x3mm_P0.5mm" H 2300 2250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ads1113.pdf" H 2250 1850 50  0001 C CNN
-	1    2300 2750
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR075
 U 1 1 6000EBEB
 P 2300 3150
@@ -1746,4 +1735,17 @@ EndData
 $EndBitmap
 Text Notes 850  1400 0    50   ~ 0
 Note: We made a mistake when reading the datasheet of the sensors\nThe output voltage doesn't change according to the read distance, but the\ncurrent does. We must then remove the leds and their resistors, and replace\nthe 330 ohm resistors by 0 ohm resistors.\nThe 120 ohm resistor has to be replaced by a 150 ohm one to act as a\nshunt resistor with a voltage between 0.6 and 3 volts.
+$Comp
+L Analog_ADC:ADS1115IDGS U7
+U 1 1 607E26ED
+P 2300 2750
+F 0 "U7" H 1700 3200 50  0000 C CNN
+F 1 "ADS1115IDGS" H 1700 3100 50  0000 C CNN
+F 2 "Package_SO:TSSOP-10_3x3mm_P0.5mm" H 2300 2250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ads1113.pdf" H 2250 1850 50  0001 C CNN
+	1    2300 2750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1900 2850
+NoConn ~ 1900 2950
 $EndSCHEMATC
