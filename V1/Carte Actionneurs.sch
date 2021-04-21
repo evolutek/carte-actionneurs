@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 4
 Title "Carte Actionneurs"
 Date "2021-02-14"
-Rev "V1.1"
+Rev "V1.2"
 Comp "Evolutek<<"
 Comment1 ""
 Comment2 ""
