@@ -1,0 +1,295 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ComponentsEvo:TB67H451FNG U1
+U 1 1 61C9C1AD
+P 6150 3500
+F 0 "U1" H 6150 3085 50  0000 C CNN
+F 1 "TB67H451FNG" H 6150 3176 50  0000 C CNN
+F 2 "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias" H 5550 2650 50  0001 C CNN
+F 3 "" H 5550 2650 50  0001 C CNN
+	1    6150 3500
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 61C9CB2E
+P 6900 3700
+F 0 "R3" H 6970 3746 50  0000 L CNN
+F 1 "0.1" H 6970 3655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 3700 50  0001 C CNN
+F 3 "~" H 6900 3700 50  0001 C CNN
+	1    6900 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3550 6900 3550
+$Comp
+L power:GND #PWR08
+U 1 1 61C9E367
+P 7150 3850
+F 0 "#PWR08" H 7150 3600 50  0001 C CNN
+F 1 "GND" H 7155 3677 50  0000 C CNN
+F 2 "" H 7150 3850 50  0001 C CNN
+F 3 "" H 7150 3850 50  0001 C CNN
+	1    7150 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J3
+U 1 1 61C9EB99
+P 8450 3400
+F 0 "J3" H 8530 3392 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 8530 3301 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 8450 3400 50  0001 C CNN
+F 3 "~" H 8450 3400 50  0001 C CNN
+	1    8450 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 61CA0751
+P 7150 3500
+F 0 "C1" H 7265 3546 50  0000 L CNN
+F 1 "4.7uF" H 7265 3455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7188 3350 50  0001 C CNN
+F 3 "~" H 7150 3500 50  0001 C CNN
+	1    7150 3500
+	1    0    0    -1  
+$EndComp
+Text Label 8000 3400 0    50   ~ 0
+OUT1
+Text Label 8000 3500 0    50   ~ 0
+OUT2
+Wire Wire Line
+	6500 3650 6800 3650
+Wire Wire Line
+	6500 3450 6800 3450
+Text Label 6800 3450 2    50   ~ 0
+OUT1
+Text Label 6800 3650 2    50   ~ 0
+OUT2
+Wire Wire Line
+	6500 3350 7150 3350
+$Comp
+L power:VCC #PWR07
+U 1 1 61CA2376
+P 7150 3350
+F 0 "#PWR07" H 7150 3200 50  0001 C CNN
+F 1 "VCC" H 7165 3523 50  0000 C CNN
+F 2 "" H 7150 3350 50  0001 C CNN
+F 3 "" H 7150 3350 50  0001 C CNN
+	1    7150 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 61CA23E3
+P 8450 2900
+F 0 "J2" H 8530 2892 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 8530 2801 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 8450 2900 50  0001 C CNN
+F 3 "~" H 8450 2900 50  0001 C CNN
+	1    8450 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR09
+U 1 1 61CA2F2D
+P 8250 2900
+F 0 "#PWR09" H 8250 2750 50  0001 C CNN
+F 1 "VCC" H 8265 3073 50  0000 C CNN
+F 2 "" H 8250 2900 50  0001 C CNN
+F 3 "" H 8250 2900 50  0001 C CNN
+	1    8250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 61CA3E9E
+P 8250 3000
+F 0 "#PWR010" H 8250 2750 50  0001 C CNN
+F 1 "GND" H 8255 2827 50  0000 C CNN
+F 2 "" H 8250 3000 50  0001 C CNN
+F 3 "" H 8250 3000 50  0001 C CNN
+	1    8250 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3550 5500 3550
+Wire Wire Line
+	5800 3450 5500 3450
+Text Label 5500 3450 0    50   ~ 0
+PWM1
+Text Label 5500 3550 0    50   ~ 0
+PWM1N
+$Comp
+L Device:R_POT RV1
+U 1 1 61CA53FA
+P 5200 3350
+F 0 "RV1" H 5131 3396 50  0000 R CNN
+F 1 "100" H 5131 3305 50  0000 R CNN
+F 2 "Potentiometer_SMD:Potentiometer_Bourns_3314J_Vertical" H 5200 3350 50  0001 C CNN
+F 3 "~" H 5200 3350 50  0001 C CNN
+	1    5200 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3350 5800 3350
+$Comp
+L Device:R R2
+U 1 1 61CA5E13
+P 5200 3650
+F 0 "R2" H 5270 3696 50  0000 L CNN
+F 1 "22" H 5270 3605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5130 3650 50  0001 C CNN
+F 3 "~" H 5200 3650 50  0001 C CNN
+	1    5200 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3800 5500 3800
+Wire Wire Line
+	5500 3800 5500 3650
+Wire Wire Line
+	5500 3650 5800 3650
+$Comp
+L power:GND #PWR04
+U 1 1 61CA7585
+P 5200 3800
+F 0 "#PWR04" H 5200 3550 50  0001 C CNN
+F 1 "GND" H 5205 3627 50  0000 C CNN
+F 2 "" H 5200 3800 50  0001 C CNN
+F 3 "" H 5200 3800 50  0001 C CNN
+	1    5200 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 5200 3800
+$Comp
+L Device:R R1
+U 1 1 61CA7F21
+P 5200 3050
+F 0 "R1" H 5270 3096 50  0000 L CNN
+F 1 "50" H 5270 3005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5130 3050 50  0001 C CNN
+F 3 "~" H 5200 3050 50  0001 C CNN
+	1    5200 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR03
+U 1 1 61CA8999
+P 5200 2900
+F 0 "#PWR03" H 5200 2750 50  0001 C CNN
+F 1 "+5V" H 5215 3073 50  0000 C CNN
+F 2 "" H 5200 2900 50  0001 C CNN
+F 3 "" H 5200 2900 50  0001 C CNN
+	1    5200 2900
+	1    0    0    -1  
+$EndComp
+Connection ~ 7150 3350
+Wire Wire Line
+	8000 3400 8250 3400
+Wire Wire Line
+	8000 3500 8250 3500
+Wire Wire Line
+	6900 3850 7150 3850
+Wire Wire Line
+	7150 3850 7150 3650
+Connection ~ 7150 3850
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 61CABDCA
+P 3400 3250
+F 0 "J1" H 3508 3531 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 3508 3440 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3400 3250 50  0001 C CNN
+F 3 "~" H 3400 3250 50  0001 C CNN
+	1    3400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR01
+U 1 1 61CACDA8
+P 3900 3150
+F 0 "#PWR01" H 3900 3000 50  0001 C CNN
+F 1 "+5V" H 3915 3323 50  0000 C CNN
+F 2 "" H 3900 3150 50  0001 C CNN
+F 3 "" H 3900 3150 50  0001 C CNN
+	1    3900 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3150 3900 3150
+Wire Wire Line
+	3600 3450 3900 3450
+$Comp
+L power:GND #PWR02
+U 1 1 61CAE4E2
+P 3900 3450
+F 0 "#PWR02" H 3900 3200 50  0001 C CNN
+F 1 "GND" H 3905 3277 50  0000 C CNN
+F 2 "" H 3900 3450 50  0001 C CNN
+F 3 "" H 3900 3450 50  0001 C CNN
+	1    3900 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3250 3900 3250
+Wire Wire Line
+	3900 3350 3600 3350
+Text Label 3900 3250 2    50   ~ 0
+PWM1
+Text Label 3900 3350 2    50   ~ 0
+PWM1N
+$Comp
+L Device:Jumper_NO_Small JP1
+U 1 1 61CB07DB
+P 6350 2450
+F 0 "JP1" H 6350 2635 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 6350 2544 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6350 2450 50  0001 C CNN
+F 3 "~" H 6350 2450 50  0001 C CNN
+	1    6350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR05
+U 1 1 61CB0D53
+P 5850 2450
+F 0 "#PWR05" H 5850 2300 50  0001 C CNN
+F 1 "+5V" H 5865 2623 50  0000 C CNN
+F 2 "" H 5850 2450 50  0001 C CNN
+F 3 "" H 5850 2450 50  0001 C CNN
+	1    5850 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 2450 5850 2450
+Wire Wire Line
+	6450 2450 6950 2450
+$Comp
+L power:VCC #PWR06
+U 1 1 61CB1E4F
+P 6950 2450
+F 0 "#PWR06" H 6950 2300 50  0001 C CNN
+F 1 "VCC" H 6965 2623 50  0000 C CNN
+F 2 "" H 6950 2450 50  0001 C CNN
+F 3 "" H 6950 2450 50  0001 C CNN
+	1    6950 2450
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
