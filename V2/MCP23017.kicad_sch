@@ -2229,7 +2229,7 @@
     (property "Value" "100uF" (id 1) (at 106.68 32.258 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 117.8052 34.798 0)
+    (property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7" (id 2) (at 117.8052 34.798 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 116.84 30.988 0)

@@ -4337,7 +4337,7 @@
       (reference "C21") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/976aa933-6963-4338-8269-24926a09fc00/5bfb66f9-dec3-42cc-8b01-b6d307060b18"
-      (reference "C22") (unit 1) (value "100uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C22") (unit 1) (value "100uF") (footprint "Capacitor_SMD:CP_Elec_6.3x7.7")
     )
     (path "/976aa933-6963-4338-8269-24926a09fc00/1310860a-2f02-4d60-8513-517ef29947d9"
       (reference "C23") (unit 1) (value "100uF") (footprint "Capacitor_SMD:CP_Elec_6.3x7.7")
