@@ -1172,6 +1172,7 @@
   (no_connect (at 101.6 45.085) (uuid d238fcc4-9501-4f50-b29f-7a62d67101f9))
   (no_connect (at 101.6 73.025) (uuid d7639a57-57ed-45f6-874d-862b99a27e80))
   (no_connect (at 58.42 47.625) (uuid f9329e82-3da2-4abe-8ad1-134c7b638311))
+  (no_connect (at 58.42 50.165) (uuid fe7e391d-fcf4-41d4-b4bf-d52c28ad45f2))
 
   (wire (pts (xy 93.98 40.005) (xy 101.6 40.005))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1763,10 +1764,6 @@
   (hierarchical_label "SCL" (shape input) (at 58.42 34.925 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid c223c08c-4f0d-4ee4-b518-7c089945585a)
-  )
-  (hierarchical_label "INT_MCP" (shape output) (at 58.42 50.165 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid f47e2aaf-116b-45ea-b594-7cc0e2fffe71)
   )
 
   (symbol (lib_id "power:GND") (at 49.276 114.3 0) (unit 1)
