@@ -6,7 +6,7 @@
 
   (title_block
     (title "Carte Actuators")
-    (date "2023-03-13")
+    (date "2023-03-15")
     (rev "V2.0")
   )
 
@@ -1684,7 +1684,7 @@
     (uuid 291bb4a7-0507-4341-b52e-2502dda05acd)
   )
 
-  (wire (pts (xy 34.29 106.045) (xy 40.64 106.045))
+  (wire (pts (xy 34.29 108.585) (xy 40.64 108.585))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 2ed54d94-b232-4586-babe-d2de11f28d08)
   )
@@ -1753,7 +1753,7 @@
     (uuid 4e4e30a0-ec3e-48bd-80bb-1eb362c353ac)
   )
 
-  (wire (pts (xy 34.29 108.585) (xy 40.64 108.585))
+  (wire (pts (xy 34.29 106.045) (xy 40.64 106.045))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 4e643a03-504f-4dcf-ae36-dbcef2357aec)
   )
@@ -2326,7 +2326,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1458f978-92d6-471e-ae81-f2b120872215)
   )
-  (label "SDA" (at 40.64 108.585 180)
+  (label "SDA" (at 40.64 106.045 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1f45f73f-116e-4506-ae48-682353876956)
   )
@@ -2382,7 +2382,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 80711d19-a11f-4f08-8114-8bd781d95270)
   )
-  (label "SCL" (at 40.64 106.045 180)
+  (label "SCL" (at 40.64 108.585 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 814a72a3-4b4e-4b0d-89e5-9f0b0edc5ae3)
   )
