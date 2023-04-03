@@ -6,8 +6,8 @@
 
   (title_block
     (title "Carte Actuators")
-    (date "2023-03-15")
-    (rev "V2.0")
+    (date "2023-04-03")
+    (rev "V2.1")
   )
 
   (lib_symbols
@@ -2525,7 +2525,7 @@
     (property "Reference" "D4" (id 0) (at 146.05 129.3494 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "LED" (id 1) (at 146.05 131.8894 90)
+    (property "Value" "YELLOW" (id 1) (at 146.05 131.8894 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "LED_SMD:LED_0805_2012Metric" (id 2) (at 142.24 129.032 0)

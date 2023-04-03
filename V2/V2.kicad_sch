@@ -6,8 +6,8 @@
 
   (title_block
     (title "Carte Actuators")
-    (date "2023-03-15")
-    (rev "V2.0")
+    (date "2023-04-03")
+    (rev "V2.1")
   )
 
   (lib_symbols
@@ -4376,7 +4376,7 @@
       (reference "D3") (unit 1) (value "GREEN") (footprint "LED_SMD:LED_0805_2012Metric")
     )
     (path "/976aa933-6963-4338-8269-24926a09fc00/a376e880-2526-491d-9e7d-3607f877981f"
-      (reference "D4") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "D4") (unit 1) (value "YELLOW") (footprint "LED_SMD:LED_0805_2012Metric")
     )
     (path "/d3db0ac7-5da0-4c19-a5d5-5d141efbe274"
       (reference "H1") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
