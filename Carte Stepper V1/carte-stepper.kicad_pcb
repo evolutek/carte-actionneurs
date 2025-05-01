@@ -713,7 +713,7 @@
 
   (footprint "ConnectorsEvo:690367280676" (layer "F.Cu")
     (tstamp 192fcd95-cab5-4363-bc84-0bff5628310a)
-    (at 86.61 94.22)
+    (at 38.7 69.2)
     (descr "<b>WR-MM</b><br> Female SMT Connector with Polarization, 6Pins")
     (property "Sheetfile" "carte-stepper.kicad_sch")
     (property "Sheetname" "")
@@ -2523,7 +2523,7 @@
 
   (footprint "ConnectorsEvo:690367280676" (layer "F.Cu")
     (tstamp 7cd6ab8d-cdbe-4fa5-bd2e-0c17075d7d7c)
-    (at 86.61 112.22)
+    (at 38.195 88.95)
     (descr "<b>WR-MM</b><br> Female SMT Connector with Polarization, 6Pins")
     (property "Sheetfile" "carte-stepper.kicad_sch")
     (property "Sheetname" "")
@@ -3105,7 +3105,7 @@
 
   (footprint "ConnectorsEvo:690367280676" (layer "F.Cu")
     (tstamp 8cf51574-105c-455b-86c6-95bd3ef1325f)
-    (at 86.61 103.22)
+    (at 39.025 79.35)
     (descr "<b>WR-MM</b><br> Female SMT Connector with Polarization, 6Pins")
     (property "Sheetfile" "carte-stepper.kicad_sch")
     (property "Sheetname" "")
