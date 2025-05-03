@@ -144,7 +144,7 @@
 
   (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (layer "F.Cu")
     (tstamp 00f21125-a044-4e35-8559-d86e3d236160)
-    (at 76.975 101.645)
+    (at 31.002944 132.352944)
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -191,7 +191,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp 01728b4e-b919-42f1-bc6b-c577942677dd)
-    (at 102.295 124.035)
+    (at 178.495 36.7)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -245,7 +245,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tstamp 01fe466a-9607-4d33-be2d-eec53473f4c2)
-    (at 126.925 122.195)
+    (at 188.42 45.1)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -317,7 +317,7 @@
 
   (footprint "LED_SMD:LED_0805_2012Metric" (layer "F.Cu")
     (tstamp 04326ab7-ebc0-4030-812a-8252215e5527)
-    (at 131.985 100.36)
+    (at 172.825 134.42)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -375,7 +375,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp 06ce6f76-6744-49e4-bdd4-59eb185bbb08)
-    (at 98.285 124.035)
+    (at 154.395 42.5)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -429,7 +429,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp 0ccc5d49-784f-4edf-9cc8-f9d8054be63a)
-    (at 106.305 111.485)
+    (at 89.925 152.1)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -485,7 +485,7 @@
 
   (footprint "ConnectorsEvo:B03B-PASK" (layer "F.Cu")
     (tstamp 12402b82-cd2d-4dfd-ad40-dfd64d9b8d59)
-    (at 125.1835 98.9335)
+    (at 98.225 152.51825)
     (property "Sheetfile" "carte-stepper.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Generic connector, single row, 01x03, script generated")
@@ -536,7 +536,7 @@
 
   (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (layer "F.Cu")
     (tstamp 127d8855-9aad-43dc-bf7c-0045d56efd7d)
-    (at 76.975 93.695)
+    (at 25 25)
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -549,7 +549,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 83b62bfa-7612-4261-bd17-9e46f379b6ef)
     )
-    (fp_text value "M3" (at 0 4.2) (layer "F.Fab")
+    (fp_text value "M3" (at 0 4.2) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e976219c-95b0-4298-a5ae-22f83dee1e4c)
     )
@@ -583,7 +583,7 @@
 
   (footprint "ConnectorsEvo:22-03-5035" (layer "F.Cu")
     (tstamp 12f34169-4134-4baa-b6fe-a5a08e080cc7)
-    (at 112.145 100.795)
+    (at -100.3 27.85)
     (descr "Molex SPOX Connector System, 5267-03A, 3 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex SPOX side entry")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -659,7 +659,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 15eb2180-f91f-448a-afd9-0e24dd9d093c)
-    (at 98.285 113.995)
+    (at 84.025 152.9)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -713,7 +713,7 @@
 
   (footprint "ConnectorsEvo:690367280676" (layer "F.Cu")
     (tstamp 192fcd95-cab5-4363-bc84-0bff5628310a)
-    (at 38.7 69.2)
+    (at -85.3 59.4)
     (descr "<b>WR-MM</b><br> Female SMT Connector with Polarization, 6Pins")
     (property "Sheetfile" "carte-stepper.kicad_sch")
     (property "Sheetname" "")
@@ -787,7 +787,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-5" (layer "F.Cu")
     (tstamp 19d4dc21-a33d-4d36-8d61-433799bbb99d)
-    (at 113.865 85.845)
+    (at 156.3375 57.05)
     (descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -796,7 +796,7 @@
     (property "ki_keywords" "Single Output LDO Wide Input")
     (path "/572a8fc8-5ac2-4b93-a4fc-d2c0b61898e6")
     (attr smd)
-    (fp_text reference "U3" (at 0 -2.4) (layer "F.SilkS")
+    (fp_text reference "U3" (at 3.1625 -2.65) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5e2793ae-6822-42c5-bca7-2c89e46794de)
     )
@@ -853,7 +853,7 @@
 
   (footprint "ComponentsEvo:435431019840" (layer "F.Cu")
     (tstamp 26ce059e-c6e1-4989-915a-30a0d0757526)
-    (at 76.2 123.92)
+    (at 167.42 46)
     (descr "<b>WS-TASV SMT Washable Tact Switch 4.1 x 2.8 mm")
     (property "Sheetfile" "carte-stepper.kicad_sch")
     (property "Sheetname" "")
@@ -915,7 +915,7 @@
 
   (footprint "ConnectorsEvo:22-03-5035" (layer "F.Cu")
     (tstamp 26fcb10d-6898-42c3-8654-3a9182decc16)
-    (at 112.145 107.745)
+    (at -100.3 34.8)
     (descr "Molex SPOX Connector System, 5267-03A, 3 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex SPOX side entry")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -991,7 +991,7 @@
 
   (footprint "ComponentsEvo:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm-Without thermal pad" (layer "F.Cu")
     (tstamp 2e11c205-71aa-4c3d-b3a0-4d3ac339137d)
-    (at 107.645 82.815)
+    (at 167.12 36.9)
     (descr "QFN, 32 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_32_05-08-1693.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
     (tags "QFN NoLead")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -1128,7 +1128,7 @@
 
   (footprint "Diode_SMD:D_SOD-523" (layer "F.Cu")
     (tstamp 3110240d-77d0-4f7c-9e83-49a596c408f3)
-    (at 88.42 122.845)
+    (at 82.125 156)
     (descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
     (tags "Diode SOD523")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -1196,7 +1196,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp 3e8c0519-9433-43f9-8ca5-67e7b6d68479)
-    (at 106.305 121.525)
+    (at 87.1 164.7)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -1252,7 +1252,7 @@
 
   (footprint "ConnectorsEvo:62701420621" (layer "F.Cu")
     (tstamp 4d3eb687-07a6-4559-971e-a88a28ecbf9f)
-    (at 117.14 114.77)
+    (at 166.41 27.82)
     (descr "<b>WR-BHD 1.27 mm Male SMT Box Header\n</b><br><br>Pitch: 1.27mm, 14pins, SMT")
     (property "Sheetfile" "carte-stepper.kicad_sch")
     (property "Sheetname" "")
@@ -1354,7 +1354,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp 4f08ae0c-503b-42cb-9e82-ac9c13e8fc0d)
-    (at 106.305 119.015)
+    (at 87.125 155.1)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -1410,7 +1410,7 @@
 
   (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" (layer "F.Cu")
     (tstamp 51f99cec-2fea-461d-a6f0-8518f7c01887)
-    (at 83.775 126.165)
+    (at 107.625 157.3)
     (descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open")
     (tags "solder jumper open")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -1493,7 +1493,7 @@
 
   (footprint "ConnectorsEvo:USB_Mini-B_Wuerth_65100516121_Horizontal" (layer "F.Cu")
     (tstamp 5be734dc-b671-42b2-878d-ffd263b244d9)
-    (at 110.425 72.245)
+    (at 142.4 -16.4)
     (descr "Mini USB 2.0 Type B SMT Horizontal 5 Contacts (https://katalog.we-online.de/em/datasheet/65100516121.pdf)")
     (tags "Mini USB 2.0 Type B")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -1607,7 +1607,7 @@
 
   (footprint "ConnectorsEvo:B03B-PASK" (layer "F.Cu")
     (tstamp 62f31f92-854a-45db-a12d-854d114b4ef2)
-    (at 125.1835 92.47)
+    (at 98.725 140.31825)
     (property "Sheetfile" "carte-stepper.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Generic connector, single row, 01x03, script generated")
@@ -1658,7 +1658,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 63f4da84-8db2-4b64-a51b-2fa37bb308f9)
-    (at 94.275 111.485)
+    (at 154.52 38.4)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -1712,7 +1712,7 @@
 
   (footprint "ConnectorsEvo:649006227222" (layer "F.Cu")
     (tstamp 6bda8b7b-05c8-478f-8fd5-f61716e6923a)
-    (at 96.25 82.47)
+    (at -56.5 32.125)
     (descr "<B>WR-MPC4 </B><BR>4.20 mm Male Dual Row Angled Header w. Mounting Pegs,6 pins")
     (property "Sheetfile" "carte-stepper.kicad_sch")
     (property "Sheetname" "")
@@ -1796,7 +1796,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp 6d5e6edd-3d1e-478e-b0e0-1582ac54887c)
-    (at 106.305 116.505)
+    (at 86.8 143.9)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -1852,7 +1852,7 @@
 
   (footprint "Diode_SMD:D_SOD-523" (layer "F.Cu")
     (tstamp 6d8184d3-3846-4ee2-8f38-f7832f4af35f)
-    (at 88.42 117.945)
+    (at 156.3 -14.075)
     (descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
     (tags "Diode SOD523")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -1922,7 +1922,7 @@
 
   (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" (layer "F.Cu")
     (tstamp 76323f6c-6b06-4f7c-8e5c-ea89de3eb956)
-    (at 83.775 122.33)
+    (at 108.025 151.2575)
     (descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open")
     (tags "solder jumper open")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -2005,7 +2005,7 @@
 
   (footprint "MarkingEvo:Logo Aisler Min" (layer "F.Cu")
     (tstamp 76d4fed7-47da-4a8e-82e0-be7bb83ecbf4)
-    (at 123.83544 83.125166)
+    (at 215.5 91)
     (property "Sheetfile" "carte-stepper.kicad_sch")
     (property "Sheetname" "")
     (property "Sim.Enable" "0")
@@ -2415,7 +2415,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp 770a3f08-8a57-400c-a1e9-d37e913680d7)
-    (at 102.295 119.015)
+    (at 192.62 50.2)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -2469,7 +2469,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 7b9ff937-8418-4c5b-b557-d881cadd62c8)
-    (at 98.285 116.505)
+    (at 84.1 161.6)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -2523,7 +2523,7 @@
 
   (footprint "ConnectorsEvo:690367280676" (layer "F.Cu")
     (tstamp 7cd6ab8d-cdbe-4fa5-bd2e-0c17075d7d7c)
-    (at 38.195 88.95)
+    (at -85.805 79.15)
     (descr "<b>WR-MM</b><br> Female SMT Connector with Polarization, 6Pins")
     (property "Sheetfile" "carte-stepper.kicad_sch")
     (property "Sheetname" "")
@@ -2597,7 +2597,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp 7d6d6add-1cb1-407f-aae8-b4f690a8a92d)
-    (at 102.295 113.995)
+    (at 167.225 127.9)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -2651,7 +2651,7 @@
 
   (footprint "ConnectorsEvo:B03B-PASK" (layer "F.Cu")
     (tstamp 83ef6f12-f702-4d7f-a255-c6215234339e)
-    (at 125.1835 105.397)
+    (at 98.925 162.31825)
     (property "Sheetfile" "carte-stepper.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Generic connector, single row, 01x03, script generated")
@@ -2702,7 +2702,7 @@
 
   (footprint "MarkingEvo:CAN ID Label 2" (layer "F.Cu")
     (tstamp 84c44ce3-8bef-4e56-ac69-2058ebd88a25)
-    (at 129.858304 112.91448)
+    (at 213.3 101.2)
     (descr "Generated with KiBuzzard")
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiKCIsICJDYXBSaWdodENob2ljZSI6ICIpIiwgIkZvbnRDb21ib0JveCI6ICJVYnVudHVNb25vLUIiLCAiSGVpZ2h0Q3RybCI6IDAuOCwgIkxheWVyQ29tYm9Cb3giOiAiRi5TaWxrUyIsICJMaW5lU3BhY2luZ0N0cmwiOiAxLjUsICJNdWx0aUxpbmVUZXh0IjogIkNBTiBJRCIsICJQYWRkaW5nQm90dG9tQ3RybCI6IDI1LjAsICJQYWRkaW5nTGVmdEN0cmwiOiAwLjAsICJQYWRkaW5nUmlnaHRDdHJsIjogMC4wLCAiUGFkZGluZ1RvcEN0cmwiOiAxLjUsICJXaWR0aEN0cmwiOiAwLjAsICJhZHZhbmNlZENoZWNrYm94IjogdHJ1ZSwgImlubGluZUZvcm1hdFRleHRib3giOiBmYWxzZSwgImxpbmVvdmVyU3R5bGVDaG9pY2UiOiAiU3F1YXJlIiwgImxpbmVvdmVyVGhpY2tuZXNzQ3RybCI6IDF9")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -3029,7 +3029,7 @@
 
   (footprint "ConnectorsEvo:22-03-5035" (layer "F.Cu")
     (tstamp 86147931-eac9-48a5-bd38-c15b07005120)
-    (at 112.145 93.845)
+    (at -100.3 20.9)
     (descr "Molex SPOX Connector System, 5267-03A, 3 Pins per row (http://www.molex.com/pdm_docs/sd/022035035_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex SPOX side entry")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -3105,7 +3105,7 @@
 
   (footprint "ConnectorsEvo:690367280676" (layer "F.Cu")
     (tstamp 8cf51574-105c-455b-86c6-95bd3ef1325f)
-    (at 39.025 79.35)
+    (at -84.975 69.55)
     (descr "<b>WR-MM</b><br> Female SMT Connector with Polarization, 6Pins")
     (property "Sheetfile" "carte-stepper.kicad_sch")
     (property "Sheetname" "")
@@ -3179,7 +3179,7 @@
 
   (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" (layer "F.Cu")
     (tstamp 8e5f2119-2a53-4fbb-9a27-7a77e26ad0e8)
-    (at 130.835 73.595)
+    (at 186.97 37.7)
     (descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
     (tags "solder jumper open")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -3254,7 +3254,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp 91473046-6bb3-4304-9c6e-f2bde2f84d16)
-    (at 98.285 121.525)
+    (at 188.32 52.2)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -3308,7 +3308,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp 9157b1bb-c1ef-42ff-b993-d99566b81bdc)
-    (at 102.295 116.505)
+    (at 167.525 131.3)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -3362,7 +3362,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 925789ea-84c6-483a-9c1a-67ce4a168f32)
-    (at 98.285 111.485)
+    (at 84.3 141.3)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -3416,7 +3416,7 @@
 
   (footprint "Diode_SMD:D_SOD-523" (layer "F.Cu")
     (tstamp 97ee8b86-0e9d-49c4-b435-4fd91b520b31)
-    (at 88.42 120.395)
+    (at 81.7 144.3)
     (descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
     (tags "Diode SOD523")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -3484,7 +3484,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 9ccd298a-a670-4361-aa92-de5020d43f7e)
-    (at 94.275 121.525)
+    (at 174.295 38.51)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -3538,7 +3538,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp 9e44855c-17d2-4b09-a0de-ea783ee6c6f8)
-    (at 106.305 108.975)
+    (at 89.3 140.9)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -3594,7 +3594,7 @@
 
   (footprint "LED_SMD:LED_0805_2012Metric" (layer "F.Cu")
     (tstamp 9f1b6e75-828a-42d9-96e7-92f1a015f94a)
-    (at 131.985 94.28)
+    (at 172.825 128.34)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -3652,7 +3652,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-6" (layer "F.Cu")
     (tstamp a174ff29-31a9-4e54-8cea-c8945f0f4f2c)
-    (at 113.865 81.395)
+    (at 151.8 -16.975)
     (descr "SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -3720,7 +3720,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp a985d2a3-20ab-454f-899b-f52b1991e60f)
-    (at 102.295 108.975)
+    (at 168.625 124.7)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -3774,7 +3774,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp b1921db9-9ea1-4c01-982e-6b2067186d39)
-    (at 94.275 116.505)
+    (at 187.845 48.8)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -3828,7 +3828,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23" (layer "F.Cu")
     (tstamp ba2942a9-167b-4f0d-a199-fa213226449d)
-    (at 131.105 69.595)
+    (at 159.8825 38.5)
     (descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -3890,7 +3890,7 @@
 
   (footprint "Diode_SMD:D_SOD-523" (layer "F.Cu")
     (tstamp bd07f7ed-313b-481f-82aa-d33e0a5f2910)
-    (at 88.42 125.295)
+    (at 81.4 165.9)
     (descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
     (tags "Diode SOD523")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -3958,7 +3958,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp be33b829-513a-46b0-bdae-3eb051a197aa)
-    (at 102.295 121.525)
+    (at 167.125 134.8)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -4012,7 +4012,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp bf683f2a-b211-48b7-ae5b-576eef0f3bf9)
-    (at 106.305 113.995)
+    (at 91.1 161.2)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -4068,7 +4068,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" (layer "F.Cu")
     (tstamp bfa3e363-69a5-45a6-94dc-bad343c751ed)
-    (at 120.389646 73.145)
+    (at -88.367677 92.8)
     (descr "CP, Radial series, Radial, pin pitch=5.00mm, , diameter=10mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 5.00mm  diameter 10mm Electrolytic Capacitor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -4496,7 +4496,7 @@
 
   (footprint "ConnectorsEvo:690367281076" (layer "F.Cu")
     (tstamp cb501a57-2739-49b7-9bc3-54c113fdc8a8)
-    (at 100.47 103.22)
+    (at 116.355 -17.65)
     (descr "<b>WR-MM</b><br> Female SMT Connector with Polarization, 10 pins")
     (property "Sheetfile" "carte-stepper.kicad_sch")
     (property "Sheetname" "")
@@ -4580,7 +4580,7 @@
 
   (footprint "LED_SMD:LED_0805_2012Metric" (layer "F.Cu")
     (tstamp cbf481af-4dbf-4d33-af09-544d80e39909)
-    (at 131.985 91.24)
+    (at 172.825 125.3)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -4638,7 +4638,7 @@
 
   (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (layer "F.Cu")
     (tstamp d5f4d0a3-9124-45e0-b70f-c474b0dcd6cb)
-    (at 76.975 117.545)
+    (at 31.002944 148.252944)
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -4685,7 +4685,7 @@
 
   (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via" (layer "F.Cu")
     (tstamp db4b6f7f-0a5f-4afd-94d8-4f93367f5134)
-    (at 76.975 109.595)
+    (at 31.002944 140.302944)
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -4732,7 +4732,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp e2454ec5-3422-4366-9774-808f6b224b91)
-    (at 102.295 111.485)
+    (at 159.72 42.1)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -4788,7 +4788,7 @@
 
   (footprint "ConnectorsEvo:690367281076" (layer "F.Cu")
     (tstamp e41c79d7-42cd-420a-8778-329a9feef35e)
-    (at 100.47 94.22)
+    (at 95.455 -18.75)
     (descr "<b>WR-MM</b><br> Female SMT Connector with Polarization, 10 pins")
     (property "Sheetfile" "carte-stepper.kicad_sch")
     (property "Sheetname" "")
@@ -4870,7 +4870,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp e8a8851b-feb6-4b61-9b3e-dcb2040946da)
-    (at 98.285 119.015)
+    (at 152.1 -11.675)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -4924,7 +4924,7 @@
 
   (footprint "LED_SMD:LED_0805_2012Metric" (layer "F.Cu")
     (tstamp e8cae94a-c329-4da0-838b-a4af4acb734d)
-    (at 131.985 97.32)
+    (at 172.825 131.38)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -4982,7 +4982,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp e93915c9-1661-4d70-9e05-e498f72561ec)
-    (at 94.275 113.995)
+    (at 157.3375 60.95)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -5036,7 +5036,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp eacf2a73-6787-4148-93f9-bcae70857039)
-    (at 94.275 119.015)
+    (at 174.295 36)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -5090,7 +5090,7 @@
 
   (footprint "MarkingEvo:logo-evo-min" (layer "F.Cu")
     (tstamp eb73a56a-a45b-4373-bf0f-3533a1ddd4a1)
-    (at 115.764237 122.962785)
+    (at 216.076327 108.860768)
     (property "Sheetfile" "carte-stepper.kicad_sch")
     (property "Sheetname" "")
     (property "Sim.Enable" "0")
@@ -10920,7 +10920,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp f8f063a9-7165-4e83-9c74-efb51255b358)
-    (at 94.275 124.035)
+    (at 174.295 41.02)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -10974,7 +10974,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp f9de8b97-e063-4383-b719-819453b97520)
-    (at 98.285 108.975)
+    (at 173.22 44.8)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -11028,7 +11028,7 @@
 
   (footprint "ConnectorsEvo:649006227222" (layer "F.Cu")
     (tstamp fb8779c2-3a39-449c-be53-a9f3ef7152b2)
-    (at 80.75 82.47)
+    (at -75 25 180)
     (descr "<B>WR-MPC4 </B><BR>4.20 mm Male Dual Row Angled Header w. Mounting Pegs,6 pins")
     (property "Sheetfile" "carte-stepper.kicad_sch")
     (property "Sheetname" "")
@@ -11037,11 +11037,11 @@
     (path "/068773ce-1ba6-4c22-b678-f42458140d2a")
     (attr through_hole)
     (fp_text reference "J5" (at 8.42 -5.15) (layer "F.SilkS")
-        (effects (font (size 1.1684 1.1684) (thickness 0.1016)) (justify left bottom))
+        (effects (font (size 1.1684 1.1684) (thickness 0.1016)) (justify right bottom))
       (tstamp a120baf5-941b-4fee-9714-c5356aec1e5e)
     )
     (fp_text value "Actuators PSU" (at 8.385 -2.17) (layer "F.Fab")
-        (effects (font (size 1.1684 1.1684) (thickness 0.1016)) (justify left bottom))
+        (effects (font (size 1.1684 1.1684) (thickness 0.1016)) (justify right bottom))
       (tstamp b4c750cb-f6a4-45b3-83eb-014e8c09355e)
     )
     (fp_line (start -7 -6.5) (end -7 6.5)
@@ -11087,19 +11087,19 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 96f4c008-7814-4169-af1f-f6e521450ece))
     (fp_line (start 6.9 6.4) (end 1.7 6.4)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 506768a0-fe9e-415a-add1-52c230b5b91d))
-    (pad "" np_thru_hole circle (at -4.2 -0.2) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask") (tstamp 6c737526-8d3c-4b8d-a0ba-2711994c87cb))
-    (pad "" np_thru_hole circle (at 4.2 -0.2) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask") (tstamp 1e67cb64-56e6-4e39-acfe-eb890312383f))
-    (pad "1" thru_hole circle (at 4.2 -7.5) (size 2.7 2.7) (drill 1.8) (layers "*.Cu" "*.Mask")
+    (pad "" np_thru_hole circle (at -4.2 -0.2 180) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask") (tstamp 6c737526-8d3c-4b8d-a0ba-2711994c87cb))
+    (pad "" np_thru_hole circle (at 4.2 -0.2 180) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask") (tstamp 1e67cb64-56e6-4e39-acfe-eb890312383f))
+    (pad "1" thru_hole circle (at 4.2 -7.5 180) (size 2.7 2.7) (drill 1.8) (layers "*.Cu" "*.Mask")
       (net 5 "VPP") (pinfunction "Pin_1") (pintype "passive") (tstamp cf743f13-a3fc-47e1-a745-23645c8ba1e3))
-    (pad "2" thru_hole circle (at 0 -7.5) (size 2.7 2.7) (drill 1.8) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole circle (at 0 -7.5 180) (size 2.7 2.7) (drill 1.8) (layers "*.Cu" "*.Mask")
       (net 39 "+12P") (pinfunction "Pin_2") (pintype "passive") (tstamp 74ae71c2-ef07-44cd-939d-0f7612c3aafc))
-    (pad "3" thru_hole circle (at -4.2 -7.5) (size 2.7 2.7) (drill 1.8) (layers "*.Cu" "*.Mask")
+    (pad "3" thru_hole circle (at -4.2 -7.5 180) (size 2.7 2.7) (drill 1.8) (layers "*.Cu" "*.Mask")
       (net 11 "+5P") (pinfunction "Pin_3") (pintype "passive") (tstamp ba55e260-a14e-4322-9cbb-a0b4053fff55))
-    (pad "4" thru_hole circle (at 4.2 -13) (size 2.7 2.7) (drill 1.8) (layers "*.Cu" "*.Mask")
+    (pad "4" thru_hole circle (at 4.2 -13 180) (size 2.7 2.7) (drill 1.8) (layers "*.Cu" "*.Mask")
       (net 2 "GND") (pinfunction "Pin_4") (pintype "passive") (tstamp d9aa13c8-7c65-4062-b2d3-cf0650ff9fd2))
-    (pad "5" thru_hole circle (at 0 -13) (size 2.7 2.7) (drill 1.8) (layers "*.Cu" "*.Mask")
+    (pad "5" thru_hole circle (at 0 -13 180) (size 2.7 2.7) (drill 1.8) (layers "*.Cu" "*.Mask")
       (net 2 "GND") (pinfunction "Pin_5") (pintype "passive") (tstamp 848fc022-fde9-4c5b-bcf5-9eb3260db840))
-    (pad "6" thru_hole circle (at -4.2 -13) (size 2.7 2.7) (drill 1.8) (layers "*.Cu" "*.Mask")
+    (pad "6" thru_hole circle (at -4.2 -13 180) (size 2.7 2.7) (drill 1.8) (layers "*.Cu" "*.Mask")
       (net 2 "GND") (pinfunction "Pin_6") (pintype "passive") (tstamp 45105408-b2f5-4cdc-b3b2-d60bdd79ed1a))
     (model ":LIBELEC:3D/Connectors/649006227222 (rev1).stp"
       (offset (xyz 0 0 5.25))
@@ -11110,7 +11110,7 @@
 
   (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" (layer "F.Cu")
     (tstamp fc12acab-e025-4cd3-b97c-1b109e553c30)
-    (at 83.775 118.495)
+    (at 107.725 145)
     (descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open")
     (tags "solder jumper open")
     (property "Sheetfile" "carte-stepper.kicad_sch")
@@ -11193,7 +11193,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp fd4ba659-d282-401d-87d1-9d5fd25c332d)
-    (at 94.275 108.975)
+    (at 155.92 53.7)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "carte-stepper.kicad_sch")
