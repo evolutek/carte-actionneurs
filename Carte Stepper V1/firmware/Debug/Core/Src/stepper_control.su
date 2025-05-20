@@ -1,0 +1,11 @@
+../Core/Src/stepper_control.c:22:6:add_int32_with_overflow	24	static
+../Core/Src/stepper_control.c:43:20:timerStart	16	static
+../Core/Src/stepper_control.c:47:20:timerStop	16	static
+../Core/Src/stepper_control.c:51:13:timerEnableInterrupt	16	static
+../Core/Src/stepper_control.c:63:13:stepperTimerRollBack	16	static
+../Core/Src/stepper_control.c:71:13:stepperCounterTimerRollBack	16	static
+../Core/Src/stepper_control.c:82:6:stepperSetFrequency	16	static
+../Core/Src/stepper_control.c:93:6:stepperInit	24	static
+../Core/Src/stepper_control.c:136:6:stepperHome	16	static
+../Core/Src/stepper_control.c:144:6:stepperHandle	32	static
+../Core/Src/stepper_control.c:211:6:stepperUpdateGoal	16	static
