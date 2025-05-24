@@ -42,7 +42,7 @@ extern TIM_HandleTypeDef htim1;
 extern TIM_HandleTypeDef htim2;
 extern TIM_HandleTypeDef htim3;
 extern TIM_HandleTypeDef htim4;
-extern TIM_HandleTypeDef htim15;
+extern TIM_HandleTypeDef htim8;
 extern TIM_HandleTypeDef htim20;
 
 extern UART_HandleTypeDef huart2;
@@ -75,6 +75,7 @@ void Error_Handler(void);
 #define MOTOR_EN_GPIO_Port GPIOA
 #define SENSOR1_Pin GPIO_PIN_1
 #define SENSOR1_GPIO_Port GPIOA
+#define SENSOR1_EXTI_IRQn EXTI1_IRQn
 #define VCP_TX_Pin GPIO_PIN_2
 #define VCP_TX_GPIO_Port GPIOA
 #define VCP_RX_Pin GPIO_PIN_3
@@ -85,8 +86,10 @@ void Error_Handler(void);
 #define MOTOR_DIR_C_GPIO_Port GPIOA
 #define SENSOR2_Pin GPIO_PIN_6
 #define SENSOR2_GPIO_Port GPIOA
+#define SENSOR2_EXTI_IRQn EXTI9_5_IRQn
 #define SENSOR3_Pin GPIO_PIN_7
 #define SENSOR3_GPIO_Port GPIOA
+#define SENSOR3_EXTI_IRQn EXTI9_5_IRQn
 #define AU_Pin GPIO_PIN_0
 #define AU_GPIO_Port GPIOB
 #define MOTOR_STP_A_Pin GPIO_PIN_10

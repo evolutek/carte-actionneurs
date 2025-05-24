@@ -18,15 +18,15 @@ void rampe_init(rampe_t *rampe, const rampe_config_t *config, loop_t *loop)
 
 	rampe->loop = loop;
 
-	rampe->brake_decel = config->brake_decel;
+	rampe->brake_decel_proportion = config->brake_decel_proportion;
 
-	rampe->min_accel = -config->max_decel;
+	rampe->min_accel = config->min_accel;
 	rampe->max_accel = config->max_accel;
 
-	rampe->min_decel = -config->max_accel;
+	rampe->min_decel = config->min_decel;
 	rampe->max_decel = config->max_decel;
 
-	rampe->min_speed = -config->max_speed;
+	rampe->min_speed = config->min_speed;
 	rampe->max_speed = config->max_speed;
 
 	rampe->target_reached_tolerance = config->target_reached_tolerance;
@@ -89,8 +89,15 @@ void rampe_tick(rampe_t *rampe, number_t delta_time)
 		t = current_speed / -min_a
 		*/
 
-		const number_t t = rampe->current_speed / (rampe->current_direction * rampe->brake_decel);
-		const number_t distance_to_brake = (t + misc_sign(t) * loop_get_avg_delta_time(rampe->loop)) * rampe->current_speed - rampe->current_direction * rampe->brake_decel * (t*t) * 0.5;
+		float brake_decel = 0;
+		if (rampe->current_direction > 0) {
+			brake_decel = rampe->brake_decel_proportion * rampe->max_decel;
+		} else {
+			brake_decel = rampe->brake_decel_proportion * rampe->min_decel;
+		}
+
+		const number_t t = rampe->current_speed / brake_decel;
+		const number_t distance_to_brake = (t + misc_sign(t) * loop_get_avg_delta_time(rampe->loop)) * rampe->current_speed - rampe->current_direction * brake_decel * (t*t) * 0.5;
 
 		current_accel = (rampe->current_direction > 0) ? rampe->max_accel : rampe->min_accel;
 
@@ -113,7 +120,11 @@ void rampe_tick(rampe_t *rampe, number_t delta_time)
 
 		number_t best_accel = 0;
 		if (misc_abs(delta_target) <= 0.001) {
-			best_accel = -rampe->brake_decel;
+			if (rampe->current_direction > 0) {
+				best_accel = rampe->brake_decel_proportion * rampe->max_decel;
+			} else {
+				best_accel = -rampe->brake_decel_proportion * rampe->min_decel;
+			}
 		} else {
 			best_accel = -(rampe->current_speed * rampe->current_speed) / (2.0 * misc_abs(delta_target));
 		}

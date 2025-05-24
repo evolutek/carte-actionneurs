@@ -12,7 +12,6 @@
 #include <stdio.h>
 
 #include "stepper_control.h"
-volatile int freq = 0;
 
 // ========================== Utilities ========================== //
 
@@ -194,8 +193,6 @@ void stepperHandle(stepper_t* stepper) {
 	else
 		stepper->config.counter_handle->Instance->CR1 |= TIM_CR1_DIR;
 	#endif
-
-	freq = target_frequency_rounded;
 
 	stepperSetFrequency(stepper, ABS(target_frequency_rounded));
 

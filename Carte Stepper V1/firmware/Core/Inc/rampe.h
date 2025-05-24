@@ -23,10 +23,16 @@ typedef enum rampe_phase_e {
 
 
 typedef struct rampe_config_s {
-    number_t max_speed;
-    number_t max_accel;
-    number_t max_decel;
-    number_t brake_decel;
+    number_t max_speed; // The maximum speed (should be a positive number)
+    number_t min_speed; // The minimum speed (should be a negative number)
+
+    number_t max_accel; // The maximum accel (should be a positive number)
+    number_t min_accel; // The minimum accel (should be a negative number)
+
+    number_t max_decel; // The maximum decel (should be a positive number)
+    number_t min_decel; // The minimum decel (should be a negative number)
+
+    number_t brake_decel_proportion;
     number_t target_reached_tolerance;
     number_t speed_reached_tolerance;
 } rampe_config_t;
@@ -42,7 +48,7 @@ typedef struct rampe_s {
     number_t max_decel;
     number_t min_decel;
 
-    number_t brake_decel;
+    number_t brake_decel_proportion;
 
     number_t current_direction;
 

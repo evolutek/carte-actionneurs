@@ -11,6 +11,6 @@
 ../Core/Src/rampe.c:57:6:rampe_set_real_speed	1
 ../Core/Src/rampe.c:62:6:rampe_update_goal	1
 ../Core/Src/rampe.c:68:13:rampe_is_target_reached	3
-../Core/Src/rampe.c:77:6:rampe_tick	14
-../Core/Src/rampe.c:144:10:rampe_get_current_speed	1
-../Core/Src/rampe.c:149:15:rampe_get_current_phase	1
+../Core/Src/rampe.c:77:6:rampe_tick	16
+../Core/Src/rampe.c:155:10:rampe_get_current_speed	1
+../Core/Src/rampe.c:160:15:rampe_get_current_phase	1

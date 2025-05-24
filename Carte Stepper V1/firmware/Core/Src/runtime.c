@@ -25,11 +25,13 @@
 static const stepper_config_t steppers_config[NB_STEPPERS] = {
 		{
 				.handle = &htim1,
-				.channel = TIM_CHANNEL_2,
+				.channel = TIM_CHANNEL_3,
 				.channel_inverted = 0,
-				.dir_port = GPIOB,
-				.dir_pin = GPIO_PIN_13,
-				.dir_inverted = 0,
+
+				.dir_port = GPIOA,
+				.dir_pin = GPIO_PIN_15,
+				.dir_inverted = false,
+
 				.counter_handle = &htim4,
 
 				.integral_max = 1000000,
@@ -41,12 +43,14 @@ static const stepper_config_t steppers_config[NB_STEPPERS] = {
 		},
 		{
 				.handle = &htim2,
-				.channel = TIM_CHANNEL_1,
+				.channel = TIM_CHANNEL_2,
 				.channel_inverted = 0,
+
 				.dir_port = GPIOB,
-				.dir_pin = GPIO_PIN_12,
-				.dir_inverted = 0,
-				.counter_handle = &htim20,
+				.dir_pin = GPIO_PIN_4,
+				.dir_inverted = false,
+
+				.counter_handle = &htim8,
 
 				.integral_max = 1000000,
 				.clock = 170000000,
@@ -57,12 +61,14 @@ static const stepper_config_t steppers_config[NB_STEPPERS] = {
 		},
 		{
 				.handle = &htim3,
-				.channel = TIM_CHANNEL_1,
-				.channel_inverted = 1,
-				.dir_port = GPIOC,
-				.dir_pin = GPIO_PIN_14,
-				.dir_inverted = 0,
-				.counter_handle = &htim15,
+				.channel = TIM_CHANNEL_2,
+				.channel_inverted = 0,
+
+				.dir_port = GPIOA,
+				.dir_pin = GPIO_PIN_5,
+				.dir_inverted = false,
+
+				.counter_handle = &htim20,
 
 				.integral_max = 1000000,
 				.clock = 170000000,
@@ -75,12 +81,16 @@ static const stepper_config_t steppers_config[NB_STEPPERS] = {
 
 
 static const rampe_config_t default_rampe_config = {
+		.min_speed = -250 * NB_MICRO_STEPS,
 		.max_speed = 250 * NB_MICRO_STEPS,
 
-		.max_accel = 250 * NB_MICRO_STEPS,
-		.max_decel = 250 * NB_MICRO_STEPS,
+		.min_accel = -8000 * NB_MICRO_STEPS,
+		.max_accel = 10000 * NB_MICRO_STEPS,
 
-		.brake_decel = 250 * NB_MICRO_STEPS,
+		.min_decel = 1 * NB_MICRO_STEPS,
+		.max_decel = 10000 * NB_MICRO_STEPS,
+
+		.brake_decel_proportion = 0.95,
 
 		.target_reached_tolerance = 2,
 		.speed_reached_tolerance = 2
@@ -147,6 +157,8 @@ void on_stepper_home(uint8_t stepper_id) {
 	stepperSetFrequency(stepper, STEPPER_HOMING_SPEED * NB_MICRO_STEPS);
 
 	steppers[stepper_id].state = STEPPER_STATE_HOMING;
+
+	printf("Home stepper %d\r\n", (int) stepper_id);
 }
 
 
@@ -165,6 +177,8 @@ void on_stepper_go_to(uint8_t stepper_id, int32_t position, int32_t speed) {
 	rampe_update_goal(rampe);
 
 	steppers[stepper_id].state = STEPPER_STATE_ENABLE;
+
+	printf("Go to %d for stepper %d at speed %d\r\n", (int) position, (int) stepper_id, (int) speed);
 }
 
 
@@ -183,6 +197,8 @@ void on_stepper_move_by(uint8_t stepper_id, int32_t delta_position, int32_t spee
 	rampe_update_goal(rampe);
 
 	steppers[stepper_id].state = STEPPER_STATE_ENABLE;
+
+	printf("Move by %d for stepper %d at speed %d\r\n", (int) delta_position, (int) stepper_id, (int) speed);
 }
 
 
@@ -200,6 +216,8 @@ void on_stepper_sensor_triggered(uint8_t stepper_id) {
 	stepperHome(stepper); // Reset position to 0
 
 	steppers[stepper_id].state = STEPPER_STATE_ENABLE;
+
+	printf("Sensor triggered\r\n");
 }
 
 
@@ -263,6 +281,10 @@ static bool first_time = true;
 
 void loop() {
 	uint32_t current_time = get_time_us();
+
+//	printf("Sensor 1: %d\r\n", HAL_GPIO_ReadPin(SENSOR1_GPIO_Port, SENSOR1_Pin));
+//	printf("Sensor 2: %d\r\n", HAL_GPIO_ReadPin(SENSOR2_GPIO_Port, SENSOR2_Pin));
+//	printf("Sensor 3: %d\r\n", HAL_GPIO_ReadPin(SENSOR3_GPIO_Port, SENSOR3_Pin));
 
 	if (first_time) {
 		last_time = current_time;

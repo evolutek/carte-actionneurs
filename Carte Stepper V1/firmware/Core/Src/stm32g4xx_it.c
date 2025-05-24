@@ -57,9 +57,12 @@
 /* External variables --------------------------------------------------------*/
 extern I2C_HandleTypeDef hi2c2;
 extern TIM_HandleTypeDef htim1;
+extern TIM_HandleTypeDef htim2;
+extern TIM_HandleTypeDef htim3;
 extern TIM_HandleTypeDef htim4;
-extern TIM_HandleTypeDef htim15;
+extern TIM_HandleTypeDef htim8;
 extern TIM_HandleTypeDef htim20;
+extern UART_HandleTypeDef huart2;
 /* USER CODE BEGIN EV */
 
 /* USER CODE END EV */
@@ -203,6 +206,35 @@ void SysTick_Handler(void)
 /******************************************************************************/
 
 /**
+  * @brief This function handles EXTI line1 interrupt.
+  */
+void EXTI1_IRQHandler(void)
+{
+  /* USER CODE BEGIN EXTI1_IRQn 0 */
+
+  /* USER CODE END EXTI1_IRQn 0 */
+  HAL_GPIO_EXTI_IRQHandler(SENSOR1_Pin);
+  /* USER CODE BEGIN EXTI1_IRQn 1 */
+
+  /* USER CODE END EXTI1_IRQn 1 */
+}
+
+/**
+  * @brief This function handles EXTI line[9:5] interrupts.
+  */
+void EXTI9_5_IRQHandler(void)
+{
+  /* USER CODE BEGIN EXTI9_5_IRQn 0 */
+
+  /* USER CODE END EXTI9_5_IRQn 0 */
+  HAL_GPIO_EXTI_IRQHandler(SENSOR2_Pin);
+  HAL_GPIO_EXTI_IRQHandler(SENSOR3_Pin);
+  /* USER CODE BEGIN EXTI9_5_IRQn 1 */
+
+  /* USER CODE END EXTI9_5_IRQn 1 */
+}
+
+/**
   * @brief This function handles TIM1 break interrupt and TIM15 global interrupt.
   */
 void TIM1_BRK_TIM15_IRQHandler(void)
@@ -211,10 +243,51 @@ void TIM1_BRK_TIM15_IRQHandler(void)
 
   /* USER CODE END TIM1_BRK_TIM15_IRQn 0 */
   HAL_TIM_IRQHandler(&htim1);
-  HAL_TIM_IRQHandler(&htim15);
   /* USER CODE BEGIN TIM1_BRK_TIM15_IRQn 1 */
 
   /* USER CODE END TIM1_BRK_TIM15_IRQn 1 */
+}
+
+/**
+  * @brief This function handles TIM1 update interrupt and TIM16 global interrupt.
+  */
+void TIM1_UP_TIM16_IRQHandler(void)
+{
+  /* USER CODE BEGIN TIM1_UP_TIM16_IRQn 0 */
+
+  /* USER CODE END TIM1_UP_TIM16_IRQn 0 */
+  HAL_TIM_IRQHandler(&htim1);
+  /* USER CODE BEGIN TIM1_UP_TIM16_IRQn 1 */
+
+  /* USER CODE END TIM1_UP_TIM16_IRQn 1 */
+}
+
+/**
+  * @brief This function handles TIM2 global interrupt.
+  */
+void TIM2_IRQHandler(void)
+{
+  /* USER CODE BEGIN TIM2_IRQn 0 */
+
+  /* USER CODE END TIM2_IRQn 0 */
+  HAL_TIM_IRQHandler(&htim2);
+  /* USER CODE BEGIN TIM2_IRQn 1 */
+
+  /* USER CODE END TIM2_IRQn 1 */
+}
+
+/**
+  * @brief This function handles TIM3 global interrupt.
+  */
+void TIM3_IRQHandler(void)
+{
+  /* USER CODE BEGIN TIM3_IRQn 0 */
+
+  /* USER CODE END TIM3_IRQn 0 */
+  HAL_TIM_IRQHandler(&htim3);
+  /* USER CODE BEGIN TIM3_IRQn 1 */
+
+  /* USER CODE END TIM3_IRQn 1 */
 }
 
 /**
@@ -260,17 +333,31 @@ void I2C2_ER_IRQHandler(void)
 }
 
 /**
-  * @brief This function handles TIM20 break interrupt.
+  * @brief This function handles USART2 global interrupt / USART2 wake-up interrupt through EXTI line 26.
   */
-void TIM20_BRK_IRQHandler(void)
+void USART2_IRQHandler(void)
 {
-  /* USER CODE BEGIN TIM20_BRK_IRQn 0 */
+  /* USER CODE BEGIN USART2_IRQn 0 */
 
-  /* USER CODE END TIM20_BRK_IRQn 0 */
-  HAL_TIM_IRQHandler(&htim20);
-  /* USER CODE BEGIN TIM20_BRK_IRQn 1 */
+  /* USER CODE END USART2_IRQn 0 */
+  HAL_UART_IRQHandler(&huart2);
+  /* USER CODE BEGIN USART2_IRQn 1 */
 
-  /* USER CODE END TIM20_BRK_IRQn 1 */
+  /* USER CODE END USART2_IRQn 1 */
+}
+
+/**
+  * @brief This function handles TIM8 update interrupt.
+  */
+void TIM8_UP_IRQHandler(void)
+{
+  /* USER CODE BEGIN TIM8_UP_IRQn 0 */
+
+  /* USER CODE END TIM8_UP_IRQn 0 */
+  HAL_TIM_IRQHandler(&htim8);
+  /* USER CODE BEGIN TIM8_UP_IRQn 1 */
+
+  /* USER CODE END TIM8_UP_IRQn 1 */
 }
 
 /**
