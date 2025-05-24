@@ -13,7 +13,7 @@
 
 #define CCR 10 // impulses are fixed length, because calculating half period is too time consuming
 
-//#define USE_HARDWARE_COUNTING
+#define USE_HARDWARE_COUNTING
 // make use of additionnal timers to count instead of relying on interrupts
 // To use : set counter_handle to the timer responsible for counting the overflow events of the main timer
 // 			ensure the counter timer can count up and down

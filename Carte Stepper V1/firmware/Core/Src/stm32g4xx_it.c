@@ -55,7 +55,11 @@
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
-
+extern I2C_HandleTypeDef hi2c2;
+extern TIM_HandleTypeDef htim1;
+extern TIM_HandleTypeDef htim4;
+extern TIM_HandleTypeDef htim15;
+extern TIM_HandleTypeDef htim20;
 /* USER CODE BEGIN EV */
 
 /* USER CODE END EV */
@@ -197,6 +201,91 @@ void SysTick_Handler(void)
 /* For the available peripheral interrupt handler names,                      */
 /* please refer to the startup file (startup_stm32g4xx.s).                    */
 /******************************************************************************/
+
+/**
+  * @brief This function handles TIM1 break interrupt and TIM15 global interrupt.
+  */
+void TIM1_BRK_TIM15_IRQHandler(void)
+{
+  /* USER CODE BEGIN TIM1_BRK_TIM15_IRQn 0 */
+
+  /* USER CODE END TIM1_BRK_TIM15_IRQn 0 */
+  HAL_TIM_IRQHandler(&htim1);
+  HAL_TIM_IRQHandler(&htim15);
+  /* USER CODE BEGIN TIM1_BRK_TIM15_IRQn 1 */
+
+  /* USER CODE END TIM1_BRK_TIM15_IRQn 1 */
+}
+
+/**
+  * @brief This function handles TIM4 global interrupt.
+  */
+void TIM4_IRQHandler(void)
+{
+  /* USER CODE BEGIN TIM4_IRQn 0 */
+
+  /* USER CODE END TIM4_IRQn 0 */
+  HAL_TIM_IRQHandler(&htim4);
+  /* USER CODE BEGIN TIM4_IRQn 1 */
+
+  /* USER CODE END TIM4_IRQn 1 */
+}
+
+/**
+  * @brief This function handles I2C2 event interrupt / I2C2 wake-up interrupt through EXTI line 24.
+  */
+void I2C2_EV_IRQHandler(void)
+{
+  /* USER CODE BEGIN I2C2_EV_IRQn 0 */
+
+  /* USER CODE END I2C2_EV_IRQn 0 */
+  HAL_I2C_EV_IRQHandler(&hi2c2);
+  /* USER CODE BEGIN I2C2_EV_IRQn 1 */
+
+  /* USER CODE END I2C2_EV_IRQn 1 */
+}
+
+/**
+  * @brief This function handles I2C2 error interrupt.
+  */
+void I2C2_ER_IRQHandler(void)
+{
+  /* USER CODE BEGIN I2C2_ER_IRQn 0 */
+
+  /* USER CODE END I2C2_ER_IRQn 0 */
+  HAL_I2C_ER_IRQHandler(&hi2c2);
+  /* USER CODE BEGIN I2C2_ER_IRQn 1 */
+
+  /* USER CODE END I2C2_ER_IRQn 1 */
+}
+
+/**
+  * @brief This function handles TIM20 break interrupt.
+  */
+void TIM20_BRK_IRQHandler(void)
+{
+  /* USER CODE BEGIN TIM20_BRK_IRQn 0 */
+
+  /* USER CODE END TIM20_BRK_IRQn 0 */
+  HAL_TIM_IRQHandler(&htim20);
+  /* USER CODE BEGIN TIM20_BRK_IRQn 1 */
+
+  /* USER CODE END TIM20_BRK_IRQn 1 */
+}
+
+/**
+  * @brief This function handles TIM20 update interrupt.
+  */
+void TIM20_UP_IRQHandler(void)
+{
+  /* USER CODE BEGIN TIM20_UP_IRQn 0 */
+
+  /* USER CODE END TIM20_UP_IRQn 0 */
+  HAL_TIM_IRQHandler(&htim20);
+  /* USER CODE BEGIN TIM20_UP_IRQn 1 */
+
+  /* USER CODE END TIM20_UP_IRQn 1 */
+}
 
 /* USER CODE BEGIN 1 */
 

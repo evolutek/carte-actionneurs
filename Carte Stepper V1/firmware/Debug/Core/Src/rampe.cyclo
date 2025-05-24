@@ -1,0 +1,16 @@
+../Core/Inc/misc.h:52:24:misc_abs	2
+../Core/Inc/misc.h:57:24:misc_max	2
+../Core/Inc/misc.h:61:24:misc_min	2
+../Core/Inc/misc.h:65:24:misc_sign	2
+../Core/Inc/misc.h:69:24:misc_clamp	1
+../Core/Src/rampe.c:15:6:rampe_init	1
+../Core/Src/rampe.c:37:6:rampe_set_target_pos	1
+../Core/Src/rampe.c:42:10:rampe_get_target_pos	1
+../Core/Src/rampe.c:47:6:rampe_set_current_pos	1
+../Core/Src/rampe.c:52:6:rampe_set_target_speed	1
+../Core/Src/rampe.c:57:6:rampe_set_real_speed	1
+../Core/Src/rampe.c:62:6:rampe_update_goal	1
+../Core/Src/rampe.c:68:13:rampe_is_target_reached	3
+../Core/Src/rampe.c:77:6:rampe_tick	14
+../Core/Src/rampe.c:144:10:rampe_get_current_speed	1
+../Core/Src/rampe.c:149:15:rampe_get_current_phase	1

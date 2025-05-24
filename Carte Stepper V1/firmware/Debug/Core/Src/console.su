@@ -1,0 +1,11 @@
+../Core/Inc/console.h:78:20:_discardWarning	16	static
+../Core/Inc/console_commands.h:21:1:cmd_callback_test	16	static
+../Core/Src/console.c:14:1:cmd_callback_help	248	static
+../Core/Src/console.c:28:1:cmd_callback_reset	16	static
+../Core/Src/console.c:47:13:_bckspace	56	dynamic
+../Core/Src/console.c:56:13:_compare	32	static
+../Core/Src/console.c:66:13:autoComplete	16	static
+../Core/Src/console.c:87:13:parseArgs	56	dynamic
+../Core/Src/console.c:103:13:parse	72	static
+../Core/Src/console.c:164:6:consoleDataReady	16	static
+../Core/Src/console.c:188:6:consoleInit	16	static

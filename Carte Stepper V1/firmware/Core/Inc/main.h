@@ -36,7 +36,19 @@ extern "C" {
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
+extern I2C_HandleTypeDef hi2c2;
 
+extern TIM_HandleTypeDef htim1;
+extern TIM_HandleTypeDef htim2;
+extern TIM_HandleTypeDef htim3;
+extern TIM_HandleTypeDef htim4;
+extern TIM_HandleTypeDef htim15;
+extern TIM_HandleTypeDef htim20;
+
+extern UART_HandleTypeDef huart2;
+
+void setup();
+void loop();
 /* USER CODE END ET */
 
 /* Exported constants --------------------------------------------------------*/

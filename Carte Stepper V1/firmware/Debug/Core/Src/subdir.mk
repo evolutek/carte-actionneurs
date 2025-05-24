@@ -5,31 +5,49 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../Core/Src/console.c \
+../Core/Src/loop.c \
 ../Core/Src/main.c \
+../Core/Src/misc.c \
+../Core/Src/rampe.c \
+../Core/Src/runtime.c \
 ../Core/Src/stepper_control.c \
 ../Core/Src/stm32g4xx_hal_msp.c \
 ../Core/Src/stm32g4xx_it.c \
 ../Core/Src/syscalls.c \
 ../Core/Src/sysmem.c \
-../Core/Src/system_stm32g4xx.c 
+../Core/Src/system_stm32g4xx.c \
+../Core/Src/time.c 
 
 OBJS += \
+./Core/Src/console.o \
+./Core/Src/loop.o \
 ./Core/Src/main.o \
+./Core/Src/misc.o \
+./Core/Src/rampe.o \
+./Core/Src/runtime.o \
 ./Core/Src/stepper_control.o \
 ./Core/Src/stm32g4xx_hal_msp.o \
 ./Core/Src/stm32g4xx_it.o \
 ./Core/Src/syscalls.o \
 ./Core/Src/sysmem.o \
-./Core/Src/system_stm32g4xx.o 
+./Core/Src/system_stm32g4xx.o \
+./Core/Src/time.o 
 
 C_DEPS += \
+./Core/Src/console.d \
+./Core/Src/loop.d \
 ./Core/Src/main.d \
+./Core/Src/misc.d \
+./Core/Src/rampe.d \
+./Core/Src/runtime.d \
 ./Core/Src/stepper_control.d \
 ./Core/Src/stm32g4xx_hal_msp.d \
 ./Core/Src/stm32g4xx_it.d \
 ./Core/Src/syscalls.d \
 ./Core/Src/sysmem.d \
-./Core/Src/system_stm32g4xx.d 
+./Core/Src/system_stm32g4xx.d \
+./Core/Src/time.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -39,7 +57,7 @@ Core/Src/%.o Core/Src/%.su Core/Src/%.cyclo: ../Core/Src/%.c Core/Src/subdir.mk
 clean: clean-Core-2f-Src
 
 clean-Core-2f-Src:
-	-$(RM) ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/stepper_control.cyclo ./Core/Src/stepper_control.d ./Core/Src/stepper_control.o ./Core/Src/stepper_control.su ./Core/Src/stm32g4xx_hal_msp.cyclo ./Core/Src/stm32g4xx_hal_msp.d ./Core/Src/stm32g4xx_hal_msp.o ./Core/Src/stm32g4xx_hal_msp.su ./Core/Src/stm32g4xx_it.cyclo ./Core/Src/stm32g4xx_it.d ./Core/Src/stm32g4xx_it.o ./Core/Src/stm32g4xx_it.su ./Core/Src/syscalls.cyclo ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.cyclo ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32g4xx.cyclo ./Core/Src/system_stm32g4xx.d ./Core/Src/system_stm32g4xx.o ./Core/Src/system_stm32g4xx.su
+	-$(RM) ./Core/Src/console.cyclo ./Core/Src/console.d ./Core/Src/console.o ./Core/Src/console.su ./Core/Src/loop.cyclo ./Core/Src/loop.d ./Core/Src/loop.o ./Core/Src/loop.su ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/misc.cyclo ./Core/Src/misc.d ./Core/Src/misc.o ./Core/Src/misc.su ./Core/Src/rampe.cyclo ./Core/Src/rampe.d ./Core/Src/rampe.o ./Core/Src/rampe.su ./Core/Src/runtime.cyclo ./Core/Src/runtime.d ./Core/Src/runtime.o ./Core/Src/runtime.su ./Core/Src/stepper_control.cyclo ./Core/Src/stepper_control.d ./Core/Src/stepper_control.o ./Core/Src/stepper_control.su ./Core/Src/stm32g4xx_hal_msp.cyclo ./Core/Src/stm32g4xx_hal_msp.d ./Core/Src/stm32g4xx_hal_msp.o ./Core/Src/stm32g4xx_hal_msp.su ./Core/Src/stm32g4xx_it.cyclo ./Core/Src/stm32g4xx_it.d ./Core/Src/stm32g4xx_it.o ./Core/Src/stm32g4xx_it.su ./Core/Src/syscalls.cyclo ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.cyclo ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32g4xx.cyclo ./Core/Src/system_stm32g4xx.d ./Core/Src/system_stm32g4xx.o ./Core/Src/system_stm32g4xx.su ./Core/Src/time.cyclo ./Core/Src/time.d ./Core/Src/time.o ./Core/Src/time.su
 
 .PHONY: clean-Core-2f-Src
 

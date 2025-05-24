@@ -1,0 +1,16 @@
+../Core/Src/runtime.c:120:20:enable_steppers	16	static
+../Core/Src/runtime.c:128:20:disable_steppers	16	static
+../Core/Src/runtime.c:139:6:on_stepper_home	24	static
+../Core/Src/runtime.c:153:6:on_stepper_go_to	32	static
+../Core/Src/runtime.c:171:6:on_stepper_move_by	32	static
+../Core/Src/runtime.c:189:6:on_stepper_sensor_triggered	24	static
+../Core/Src/runtime.c:208:6:setup	16	static
+../Core/Src/runtime.c:264:6:loop	40	static
+../Core/Src/runtime.c:326:6:HAL_UART_RxCpltCallback	16	static
+../Core/Src/runtime.c:334:6:HAL_TIM_PeriodElapsedCallback	24	static
+../Core/Src/runtime.c:347:6:HAL_GPIO_EXTI_Callback	16	static
+../Core/Src/runtime.c:365:6:HAL_I2C_ListenCpltCallback	16	static
+../Core/Src/runtime.c:372:6:HAL_I2C_AddrCallback	16	static
+../Core/Src/runtime.c:393:6:HAL_I2C_SlaveTxCpltCallback	16	static
+../Core/Src/runtime.c:403:6:HAL_I2C_SlaveRxCpltCallback	48	static
+../Core/Src/runtime.c:457:6:HAL_I2C_ErrorCallback	24	static

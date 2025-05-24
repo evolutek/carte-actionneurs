@@ -7,5 +7,5 @@
 ../Core/Src/stepper_control.c:82:6:stepperSetFrequency	16	static
 ../Core/Src/stepper_control.c:93:6:stepperInit	24	static
 ../Core/Src/stepper_control.c:136:6:stepperHome	16	static
-../Core/Src/stepper_control.c:144:6:stepperHandle	32	static
+../Core/Src/stepper_control.c:144:6:stepperHandle	40	static
 ../Core/Src/stepper_control.c:211:6:stepperUpdateGoal	16	static

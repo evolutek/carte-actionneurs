@@ -1,0 +1,4 @@
+../Core/Src/loop.c:11:6:loop_init	16	static
+../Core/Src/loop.c:19:6:loop_tick	24	static
+../Core/Src/loop.c:34:10:loop_get_avg_delta_time	16	static
+../Core/Src/loop.c:40:10:loop_get_ellapsed_time	16	static
