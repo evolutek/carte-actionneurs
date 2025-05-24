@@ -17,7 +17,10 @@
 
 #define NB_STEPPERS 3
 #define STEPPER_HOMING_SPEED 40
-#define NB_MICRO_STEPS 32
+#define NB_MICRO_STEPS 64
+
+
+#define HOLO // Define if it's for the holo bot
 
 
 // ======================== Config ========================
@@ -80,21 +83,23 @@ static const stepper_config_t steppers_config[NB_STEPPERS] = {
 };
 
 
+#ifdef HOLO
 static const rampe_config_t default_rampe_config = {
-		.min_speed = -250 * NB_MICRO_STEPS,
-		.max_speed = 250 * NB_MICRO_STEPS,
+		.min_speed = -128 * NB_MICRO_STEPS,
+		.max_speed = 128 * NB_MICRO_STEPS,
 
-		.min_accel = -8000 * NB_MICRO_STEPS,
-		.max_accel = 10000 * NB_MICRO_STEPS,
+		.min_accel = -4000 * NB_MICRO_STEPS,
+		.max_accel = 5000 * NB_MICRO_STEPS,
 
-		.min_decel = 1 * NB_MICRO_STEPS,
-		.max_decel = 10000 * NB_MICRO_STEPS,
+		.min_decel = -1000 * NB_MICRO_STEPS,
+		.max_decel = 1000 * NB_MICRO_STEPS,
 
 		.brake_decel_proportion = 0.95,
 
 		.target_reached_tolerance = 2,
 		.speed_reached_tolerance = 2
 };
+#endif
 
 
 // ======================== Variables ========================

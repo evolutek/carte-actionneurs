@@ -97,7 +97,7 @@ void rampe_tick(rampe_t *rampe, number_t delta_time)
 		}
 
 		const number_t t = rampe->current_speed / brake_decel;
-		const number_t distance_to_brake = (t + misc_sign(t) * loop_get_avg_delta_time(rampe->loop)) * rampe->current_speed - rampe->current_direction * brake_decel * (t*t) * 0.5;
+		const number_t distance_to_brake = (t + misc_sign(t) * loop_get_avg_delta_time(rampe->loop)) * rampe->current_speed - brake_decel * (t*t) * 0.5;
 
 		current_accel = (rampe->current_direction > 0) ? rampe->max_accel : rampe->min_accel;
 
@@ -123,7 +123,7 @@ void rampe_tick(rampe_t *rampe, number_t delta_time)
 			if (rampe->current_direction > 0) {
 				best_accel = rampe->brake_decel_proportion * rampe->max_decel;
 			} else {
-				best_accel = -rampe->brake_decel_proportion * rampe->min_decel;
+				best_accel = rampe->brake_decel_proportion * rampe->min_decel;
 			}
 		} else {
 			best_accel = -(rampe->current_speed * rampe->current_speed) / (2.0 * misc_abs(delta_target));
