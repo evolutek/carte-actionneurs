@@ -6,8 +6,8 @@
 
   (title_block
     (title "Carte ADC")
-    (date "2025-05-21")
-    (rev "V1.0")
+    (date "2025-06-11")
+    (rev "V1.1")
   )
 
   (lib_symbols
@@ -8585,7 +8585,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 376e55cd-4937-411c-b7a7-23f52361063f)
   )
-  (label "SDA" (at 73.66 67.31 0) (fields_autoplaced)
+  (label "SDA" (at 73.66 69.85 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4b0e6e9c-1103-4179-87fd-5a433aca2bc8)
   )
@@ -8637,7 +8637,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c9a6fb4e-89b9-45e8-8fc3-335be07c85d0)
   )
-  (label "SCL" (at 73.66 69.85 0) (fields_autoplaced)
+  (label "SCL" (at 73.66 67.31 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d9b830fb-62d5-4bd8-8885-bf50efac56d9)
   )
